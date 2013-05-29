@@ -1,0 +1,48 @@
+/* 
+    Document   : dialog
+    Created on : 23/05/2013, 03:08:54 PM
+    Author     : Edgar Cardona
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.dialog_head
+{
+    color: #666666;
+    font-size: small;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #DDD;
+    width: 100%;
+    text-align: center;
+}
+
+.dialog_tip
+{
+    color: #666666;
+    font-style: italic;
+    font-size: smaller;
+}
+
+.dialog_textarea
+{
+    height: 100%;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#dialog-add
+{
+    overflow: hidden;
+}
+
+.errorMessage-calendar
+{
+    color: #F00;
+}
+
+.ui-dialog-titlebar
+{
+    background: #36c;
+    color: #ffffff
+}

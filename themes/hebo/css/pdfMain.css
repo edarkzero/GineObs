@@ -1,0 +1,47 @@
+/* 
+    Document   : pdfMain
+    Created on : 19/05/2013, 09:20:06 PM
+    Author     : Edgar Cardona
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#contenedor
+{
+    padding:5px;
+    overflow: hidden;
+}
+
+#columna1
+{
+    border-right: 1px solid #000;
+    padding-right: 15px;
+    width:48%;
+    float:left;
+}
+
+#columna2
+{
+    border-left: 1px solid #000;
+    padding-left: 15px;
+    width:48%;
+    float:right;
+}
+
+.h1PDF
+{
+    font-size:18px; 
+    font-family:arial;
+    text-align: center;
+}
+
+.textoNegrita
+{
+    font-weight:bold;
+    font-size:12px;
+}
+
+.textoNormal
+{
+    font-size:18px;
+}
