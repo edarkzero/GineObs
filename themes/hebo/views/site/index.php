@@ -164,7 +164,7 @@
      <script type="text/javascript">
     $(function() {
         $('#slider-nivo').nivoSlider({
-			effect: 'boxRandom',
+			effect: 'fade',
 			manualAdvance:false,
 			controlNav: false
 			});

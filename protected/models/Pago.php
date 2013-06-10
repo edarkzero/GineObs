@@ -4,7 +4,7 @@
  * This is the model class for table "pago".
  *
  * The followings are the available columns in table 'pago':
- * @property string $id
+ * @property string $mesd
  * @property double $paga
  * @property string $fecha
  * @property string $paciente_id
@@ -14,6 +14,8 @@
  */
 class Pago extends CActiveRecord
 {
+        var $total;
+
         public function behaviors() {
             
             return array(
@@ -92,6 +94,7 @@ class Pago extends CActiveRecord
 			'paga' => 'Paga',
 			'fecha' => 'Fecha',
 			'paciente_id' => 'Paciente',
+			'total' => 'Total',
 		);
 	}
 
@@ -115,33 +118,101 @@ class Pago extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
-        
-        public function MensualData()
-        {
-            $pagos = array();
-            
-            for($i = 1 ; $i <= 12 ; $i++)
-            {
-                $criteria=new CDbCriteria;
-                $criteria->addBetweenCondition('fecha', '2013-0'.$i.'-01', '2013-0'.$i.'-31');
 
-                $dataProvider = new CActiveDataProvider($this, array(
-                            'criteria'=>$criteria,
-                    ));
+    /*
+    * @return array ChartLabel at(0) ChartPagos at(1)
+     * @param CDbCriteria $criteria
+    */
+    public function monthlyDataChart()
+    {
 
-                
-                $sum = 0;
+        $chartLabels = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Noviembre","Diciembre");
+        $chartPagos = array();
+        $actualYear = Date('Y');
 
-                foreach($dataProvider->getData() as $data)
-                {
-                    $sum += $data->paga;
-                }
-                
-                $pagos[] = $sum;
+        for ($mes = 1; $mes <= 12; $mes++) {
+            $criteria = new CDbCriteria;
+            $criteria->addBetweenCondition('fecha', $actualYear.'-0' . $mes . '-01', $actualYear.'-0' . $mes . '-31');
+
+            $dataProvider = new CActiveDataProvider($this, array(
+                'criteria' => $criteria,
+            ));
+
+
+            $sum = 0;
+
+            foreach ($dataProvider->getData() as $data) {
+                $sum += $data->paga;
             }
-            
-            return $pagos;
-            
+
+            $chartPagos[] = $sum;
         }
+        
+        return array($chartLabels,$chartPagos);
+
+    }
+
+    /*
+    * @return array ChartLabel at(0) ChartPagos at(1)
+    */
+    public function weeklyDataChart()
+    {
+        $chartLabels = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Noviembre","Diciembre");
+        $actualYear = Date('Y');
+        $actualMonth = Date('M');
+
+        $criteria = new CDbCriteria;
+        $criteria->select = ('SUM(paga) AS Total');
+        $criteria->addBetweenCondition('fecha', $actualYear.'-0' . $actualMonth . '-01', $actualYear.'-0' . $actualMonth . '-31');
+
+        $chartPagos = $this->activeRecordColumnToArray(Pago::model()->findAll($criteria));
+
+        return array($chartLabels,$chartPagos);
+
+    }
+
+    /*
+    * @return array ChartLabel at(0) ChartPagos at(1)
+    */
+    public function dailyDataChart()
+    {
+        $dias = array();
+        $actualYear = Date('Y');
+        $actualMonth = Date('M');
+        $chartPagos = array();
+
+        for ($i = 0; $i < 31; $i++) {
+            $criteria = new CDbCriteria;
+            $criteria->select = ('SUM(paga) AS total');
+            $criteria->addBetweenCondition('fecha', $actualYear . '-0' . $actualMonth . '-01', $actualYear . '-0' . $actualMonth . '-31');
+            $chartPagos[] = Pago::model()->find($criteria)->total;
+
+            $dias[] = $i+1;
+        }
+
+        $chartLabels = $dias;
+
+
+        return array($chartLabels,$chartPagos);
+    }
+
+    /*
+     * Devuelve un array del ActiveRecord dado
+    * @return array parsetoarry ActiveRecord
+    * @param CActiveRecord $AR
+    * @return string $att
+    */
+    public function activeRecordColumnToArray($AR,$att='id')
+    {
+        $arr_AR = array();
+
+        foreach($AR as $item)
+        {
+            $arr_AR[] = $item->{$att};
+        }
+
+        return $arr_AR;
+
+    }
         
 }

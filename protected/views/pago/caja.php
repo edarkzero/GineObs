@@ -1,7 +1,8 @@
 <?php
 /* @var $this PagoController */
-/* @var $chartLabels array(LABELS) */
-/* @var $chartData array(VALUES) */
+/* @var $pagosMonthlyChartData array */
+/* @var $pagosWeeklyChartData array */
+/* @var $pagosDailyChartData array */
 
 $this->breadcrumbs=array(
 	'Pagos'=>array('index'),
@@ -23,9 +24,9 @@ $this->menu=array(
 <?php
     $this->widget('zii.widgets.jui.CJuiTabs',array(
         'tabs'=>array(
-            'Mensual'=>$this->renderPartial('_cajaMensual',array('chartLabels'=>$chartLabels,'chartData'=>$chartData),true),
-            'Semanal'=>$this->renderPartial('_cajaSemanal',array('chartLabels'=>$chartLabels,'chartData'=>$chartData),true),
-            'Diaria'=>$this->renderPartial('_cajaDiaria',array('chartLabels'=>$chartLabels,'chartData'=>$chartData),true),
+            'Mensual'=>$this->renderPartial('_cajaChart',array('titulo'=>'mensual','pagosChartData'=>$pagosMonthlyChartData),true),
+            'Semanal'=>$this->renderPartial('_cajaChart',array('titulo'=>'semanal','pagosChartData'=>$pagosMonthlyChartData),true),
+            'Diaria'=>$this->renderPartial('_cajaChart',array('titulo'=>'diario','pagosChartData'=>$pagosDailyChartData),true),
         ),
         // additional javascript options for the tabs plugin
         'options'=>array(

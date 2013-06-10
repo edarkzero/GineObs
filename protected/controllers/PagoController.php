@@ -141,11 +141,15 @@ class PagoController extends Controller
         
         public function actionCaja()
         {
-            $chartLabels = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Noviembre","Diciembre");
-            $chartData = Pago::model()->MensualData();
             
+            $pagosMonthlyChartData = Pago::model()->monthlyDataChart();
+            $pagosWeeklyChartData = Pago::model()->WeeklyDataChart();
+            $pagosDailyChartData = Pago::model()->dailyDataChart();
+
             $this->render("caja",array(
-                            'chartLabels'=>$chartLabels,'chartData'=>$chartData
+                            'pagosMonthlyChartData'=>$pagosMonthlyChartData,
+                            'pagosWeeklyChartData'=>$pagosWeeklyChartData,
+                            'pagosDailyChartData'=>$pagosDailyChartData,
                     ));
         }
 
