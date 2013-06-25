@@ -22,12 +22,12 @@ $this->menu=array(
 		array(
                     'label'=>'Fecha Inicio',
                     'type'=>'raw',
-                    'value'=>$this->formatearFecha($model->fechaInicio),
+                    'value'=>Evento::FORMATEAR_FECHA($model->fechaInicio),
                 ),
 		array(
                     'label'=>'Fecha Fin',
                     'type'=>'raw',
-                    'value'=>$this->formatearFecha($model->fechaFin),
+                    'value'=>Evento::FORMATEAR_FECHA($model->fechaFin),
                 ),
 		'descripcion',
 	),

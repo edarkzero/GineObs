@@ -4,7 +4,7 @@
  * This is the model class for table "pago".
  *
  * The followings are the available columns in table 'pago':
- * @property string $mesd
+ * @property string $id
  * @property double $paga
  * @property string $fecha
  * @property string $paciente_id
@@ -130,9 +130,9 @@ class Pago extends CActiveRecord
         $chartPagos = array();
         $actualYear = Date('Y');
 
-        for ($mes = 1; $mes <= 12; $mes++) {
+        for ($i = 1; $i <= 12; $i++) {
             $criteria = new CDbCriteria;
-            $criteria->addBetweenCondition('fecha', $actualYear.'-0' . $mes . '-01', $actualYear.'-0' . $mes . '-31');
+            $criteria->addBetweenCondition('fecha', $actualYear.'-0' . $i . '-01', $actualYear.'-0' . $i . '-31');
 
             $dataProvider = new CActiveDataProvider($this, array(
                 'criteria' => $criteria,
@@ -157,17 +157,37 @@ class Pago extends CActiveRecord
     */
     public function weeklyDataChart()
     {
-        $chartLabels = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Noviembre","Diciembre");
+        $semana = array("Lunes","Martes","Miercoles","Jueves","Viernes","Sábado","Domingo");
         $actualYear = Date('Y');
-        $actualMonth = Date('M');
+        $actualMonth = Date('m');
 
-        $criteria = new CDbCriteria;
-        $criteria->select = ('SUM(paga) AS Total');
-        $criteria->addBetweenCondition('fecha', $actualYear.'-0' . $actualMonth . '-01', $actualYear.'-0' . $actualMonth . '-31');
+        $chartPagos = array();
 
-        $chartPagos = $this->activeRecordColumnToArray(Pago::model()->findAll($criteria));
+        for ($i = 1; $i <= 31; $i+=7) {
+            $criteria = new CDbCriteria;
 
-        return array($chartLabels,$chartPagos);
+            if($i < 10)
+                $criteria->addBetweenCondition('fecha', $actualYear.'-' . $actualMonth . '-0'.$i.' 00:00', $actualYear.'-' . $actualMonth . '-0'.($i+7).' 23:59');
+
+            else
+                $criteria->addBetweenCondition('fecha', $actualYear.'-' . $actualMonth . '-'.$i.' 00:00', $actualYear.'-' . $actualMonth . '-'.($i+7).' 23:59');
+
+            print('<br/> '. $actualYear.'-' . $actualMonth . '-'.$i.' 00:00  -----'. $actualYear.'-' . $actualMonth . '-'.($i+7).' 23:59');
+            $dataProvider = new CActiveDataProvider($this, array(
+                'criteria' => $criteria,
+            ));
+
+
+            $sum = 0;
+
+            foreach ($dataProvider->getData() as $data) {
+                $sum += $data->paga;
+            }
+
+            $chartPagos[] = $sum;
+        }
+
+        return array($semana,$chartPagos);
 
     }
 
@@ -178,22 +198,35 @@ class Pago extends CActiveRecord
     {
         $dias = array();
         $actualYear = Date('Y');
-        $actualMonth = Date('M');
+        $actualMonth = Date('m');
+
         $chartPagos = array();
 
-        for ($i = 0; $i < 31; $i++) {
+        for ($i = 1; $i <= 31; $i++) {
             $criteria = new CDbCriteria;
-            $criteria->select = ('SUM(paga) AS total');
-            $criteria->addBetweenCondition('fecha', $actualYear . '-0' . $actualMonth . '-01', $actualYear . '-0' . $actualMonth . '-31');
-            $chartPagos[] = Pago::model()->find($criteria)->total;
 
+            if($i < 10)
+                $criteria->addBetweenCondition('fecha', $actualYear.'-' . $actualMonth . '-0'.$i.' 00:00', $actualYear.'-' . $actualMonth . '-0'.$i.' 23:59');
+
+            else
+                $criteria->addBetweenCondition('fecha', $actualYear.'-' . $actualMonth . '-'.$i.' 00:00', $actualYear.'-' . $actualMonth . '-'.$i.' 23:59');
+
+            $dataProvider = new CActiveDataProvider($this, array(
+                'criteria' => $criteria,
+            ));
+
+
+            $sum = 0;
+
+            foreach ($dataProvider->getData() as $data) {
+                $sum += $data->paga;
+            }
+
+            $chartPagos[] = $sum;
             $dias[] = $i+1;
         }
 
-        $chartLabels = $dias;
-
-
-        return array($chartLabels,$chartPagos);
+        return array($dias,$chartPagos);
     }
 
     /*
