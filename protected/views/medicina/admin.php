@@ -40,7 +40,6 @@ data: $(this).serialize()
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		'id',
 		'nombre',
 		'presentacion',
 		'unidad',

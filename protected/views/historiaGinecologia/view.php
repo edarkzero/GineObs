@@ -1,6 +1,7 @@
 <?php
 /* @var $this HistoriaGinecologiaController */
 /* @var $model HistoriaGinecologia */
+/* @var $model_historia_paciente HistoriaGinecologia[] */
 
 $this->breadcrumbs=array(
 	'Historia Ginecologias'=>array('index'),
@@ -16,7 +17,7 @@ $this->menu=array(
 );
 ?>
 
-<h1>View HistoriaGinecologia #<?php echo $model->id; ?></h1>
+<h1>Vista HistoriaGinecologia #<?php echo $model->id; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
@@ -42,3 +43,14 @@ $this->menu=array(
 		'tratamiento',
 	),
 )); ?>
+
+    <h2>Historias</h2>
+
+<?php
+    $this->widget('zii.widgets.CListView', array(
+        'dataProvider'=>$model_historia_paciente,
+        'itemView' => '_historias_ginecologias',
+        'ajaxUpdate'=>true,
+        'enablePagination'=>true,
+    ));
+?>

@@ -1,6 +1,6 @@
 <?php
 /* @var $this CalendarioController */
-/* @var $model Evento */
+/* @var $model Calendario */
 /* @var $form CActiveForm */
 ?>
 
@@ -17,22 +17,12 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'fechaInicio'); ?>
-		<?php echo $form->textField($model,'fechaInicio'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'fechaFin'); ?>
-		<?php echo $form->textField($model,'fechaFin'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'descripcion'); ?>
-		<?php echo $form->textArea($model,'descripcion',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->label($model,'fecha'); ?>
+		<?php echo $form->textField($model,'fecha'); ?>
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Buscar'); ?>
+		<?php echo CHtml::submitButton('Search'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

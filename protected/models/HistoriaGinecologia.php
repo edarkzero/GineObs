@@ -45,6 +45,23 @@ class HistoriaGinecologia extends MtMActiveRecord
 		return parent::model($className);
 	}
 
+    public function getHistoriasGinecologicasByPaciente($idPaciente)
+    {
+        $criteria = new CDBCriteria;
+
+        $criteria->together = true;
+
+        $criteria->compare('t.paciente_id', $idPaciente);
+
+        return new CActiveDataProvider($this, array(
+            'criteria'=>$criteria,
+            'pagination'=>array(
+                'pageSize'=>5
+            ),
+        ));
+
+    }
+
 	/**
 	 * @return string the associated database table name
 	 */
@@ -119,11 +136,11 @@ class HistoriaGinecologia extends MtMActiveRecord
 		$criteria->compare('fecha',$this->fecha,true);
 		$criteria->compare('ginecologiaEnfermedads',$this->ginecologiaEnfermedads,true);
 		$criteria->compare('motivo_consulta',$this->motivo_consulta,true);
-		/*$criteria->compare('dir_examen1',$this->dir_examen1,true);
+		$criteria->compare('dir_examen1',$this->dir_examen1,true);
 		$criteria->compare('dir_examen2',$this->dir_examen2,true);
 		$criteria->compare('examen_fisico',$this->examen_fisico,true);
 		$criteria->compare('diagnostico',$this->diagnostico,true);
-		$criteria->compare('tratamiento',$this->tratamiento,true);*/
+		$criteria->compare('tratamiento',$this->tratamiento,true);
 
                 return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

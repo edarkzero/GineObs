@@ -166,18 +166,35 @@ class HistoriaObstetricia extends CActiveRecord
 		$criteria->compare('paciente_id',$this->paciente_id,true);
 		$criteria->compare('fecha',$this->fecha,true);
 		$criteria->compare('peso',$this->peso);
-		//$criteria->compare('tension_arterial_mm',$this->tension_arterial_mm,true);
-		//$criteria->compare('tension_arterial_hg',$this->tension_arterial_hg,true);
-		//$criteria->compare('altura_uterina',$this->altura_uterina);
-		//$criteria->compare('foco_fetal',$this->foco_fetal);
-		//$criteria->compare('edad_embarazo',$this->edad_embarazo);
-		//$criteria->compare('edemas',$this->edemas);
-		//$criteria->compare('otros',$this->otros,true);
+		$criteria->compare('tension_arterial_mm',$this->tension_arterial_mm,true);
+		$criteria->compare('tension_arterial_hg',$this->tension_arterial_hg,true);
+		$criteria->compare('altura_uterina',$this->altura_uterina);
+		$criteria->compare('foco_fetal',$this->foco_fetal);
+		$criteria->compare('edad_embarazo',$this->edad_embarazo);
+		$criteria->compare('edemas',$this->edemas);
+		$criteria->compare('otros',$this->otros,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
+
+    public function getHistoriasObstetriciaByPaciente($idPaciente)
+    {
+        $criteria = new CDBCriteria;
+
+        $criteria->together = true;
+
+        $criteria->compare('t.paciente_id', $idPaciente);
+
+        return new CActiveDataProvider($this, array(
+            'criteria'=>$criteria,
+            'pagination'=>array(
+                'pageSize'=>5
+            ),
+        ));
+
+    }
 	
 	public function getNombreCompleto() {
 		

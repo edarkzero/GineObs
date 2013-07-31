@@ -140,7 +140,7 @@ return array(
 			'username' => 'root',
 			'password' => 'zero1010',
 			'charset' => 'utf8',
-                        'enableProfiling' => true,
+//                        'enableProfiling' => true,
 		),
 		
                 /*Descomentar para usar otra base de datos
@@ -172,9 +172,9 @@ return array(
 				),
 				// uncomment the following to show log messages on web pages
 				
-				array(
+				/*array(
 					'class'=>'CWebLogRoute',
-				),
+				),*/
 				
 			),
 		),

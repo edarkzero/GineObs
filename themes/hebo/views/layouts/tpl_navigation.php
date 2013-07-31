@@ -43,15 +43,7 @@
                         array('label'=>'Recipes', 'url'=>array('/recipe/admin'),'linkOptions'=>array("data-description"=>"Datos de recipes"),),
                         array('label'=>'Pagos', 'url'=>array('/pago/admin'),'linkOptions'=>array("data-description"=>"Datos de pagos"),),
                         array('label'=>'Usuarios', 'url'=>array('/usuario/admin'),'linkOptions'=>array("data-description"=>"Datos de usuarios"),),
-                        
-                        array('label'=>'Calendario <span class="caret"></span>', 'url'=>array('/site/page', 'view'=>'columns'),'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"Gestion de agenda"), 
-                            'items'=>array(
-                                array('label'=>'Eventos', 'url'=>array('/evento/admin')),
-                                array('label'=>'Citas', 'url'=>array('/cita/admin')),
-                            )),
-                       
-                        array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest,'linkOptions'=>array("data-description"=>"Area de miembros")),
-                        array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest,'linkOptions'=>array("data-description"=>"Area de miembros")),
+                        array('label'=>'Calendario', 'url'=>array('/calendario/admin'),'linkOptions'=>array("data-description"=>"Gestion de calendario"),),
                         
 //                        array('label'=>'Estilos <span class="caret"></span>', 'url'=>'#','itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"6 estilos para la pagina"), 
 //                            'items'=>array(

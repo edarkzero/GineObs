@@ -1,18 +1,18 @@
 <?php
-/* @var $this EventoController */
+/* @var $this CalendarioController */
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Eventos',
+	'Calendarios',
 );
 
 $this->menu=array(
-	array('label'=>'Create Evento', 'url'=>array('create')),
-	array('label'=>'Manage Evento', 'url'=>array('admin')),
+	array('label'=>'Create Calendario', 'url'=>array('create')),
+	array('label'=>'Manage Calendario', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Eventos</h1>
+<h1>Calendarios</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

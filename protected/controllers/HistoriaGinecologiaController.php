@@ -43,8 +43,12 @@ class HistoriaGinecologiaController extends Controller
 	 */
 	public function actionView($id)
 	{
+        $model_historia = $this->loadModel($id);
+        $model_historia_paciente = HistoriaGinecologia::model()->getHistoriasGinecologicasByPaciente($model_historia->paciente->id);
+
 		$this->render('view',array(
-			'model'=>$this->loadModel($id),
+			'model'=>$model_historia,
+            'model_historia_paciente' => $model_historia_paciente,
 		));
 	}
 
@@ -84,6 +88,7 @@ class HistoriaGinecologiaController extends Controller
 	public function actionUpdate($id)
 	{
 		$modelGineco=$this->loadModel($id);
+        $model_historia_paciente = HistoriaGinecologia::model()->getHistoriasGinecologicasByPaciente($modelGineco->paciente->id);
 
 		// Uncomment the following line if AJAX validation is needed
 		$this->performAjaxValidation($modelGineco);
@@ -103,6 +108,7 @@ class HistoriaGinecologiaController extends Controller
 
 		$this->render('update',array(
 			'modelGineco'=>$modelGineco,
+            'model_historia_paciente' => $model_historia_paciente,
 		));
 	}
 

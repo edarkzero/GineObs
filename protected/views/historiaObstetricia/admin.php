@@ -28,11 +28,6 @@ $('.search-form form').submit(function(){
 
 <h1>Administrar Historias de Obstetricia</h1>
 
-<p>
-También puede escribir un operador de comparación (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-o <b>=</b>) al principio de cada uno de los valores de búsqueda para especificar cómo se debe hacer la comparación.
-</p>
-
 <?php echo CHtml::link('Busqueda Avanzada','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
@@ -46,8 +41,7 @@ o <b>=</b>) al principio de cada uno de los valores de búsqueda para especifica
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		//'id',
-            
+        'paciente_id',
 		array(    
                     'name'=>'paciente_id',
                     'header'=>'Paciente',
@@ -56,7 +50,7 @@ o <b>=</b>) al principio de cada uno de los valores de búsqueda para especifica
 		),
             
 		'fecha',
-		'peso',
+		/*'peso',*/
 		//'tension_arterial',
 		//'altura_uterina',
 		//'foco_fetal',

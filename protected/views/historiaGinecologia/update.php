@@ -19,3 +19,14 @@ $this->menu=array(
 <h1>Update HistoriaGinecologia <?php echo $modelGineco->id; ?></h1>
 
 <?php echo $this->renderPartial('_form', array('modelGineco'=>$modelGineco)); ?>
+
+    <h2>Historias</h2>
+
+<?php
+$this->widget('zii.widgets.CListView', array(
+    'dataProvider'=>$model_historia_paciente,
+    'itemView' => '_historias_ginecologias',
+    'ajaxUpdate'=>true,
+    'enablePagination'=>true,
+));
+?>

@@ -1,18 +1,18 @@
 <?php
 /* @var $this CalendarioController */
-/* @var $model Calendario */
+/* @var $model Evento */
 
 $this->breadcrumbs=array(
-	'Calendarios'=>array('index'),
-	'Create',
+	'Eventos'=>array('index'),
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Calendario', 'url'=>array('index')),
-	array('label'=>'Manage Calendario', 'url'=>array('admin')),
+	array('label'=>'Listar Eventos', 'url'=>array('index')),
+	array('label'=>'Administrar Evento', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Calendario</h1>
+<h1>Crear Evento</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

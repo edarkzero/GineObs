@@ -1,6 +1,6 @@
 <?php
 
-class HistoriaObstetriciaController extends Controller
+class CalendarioController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -27,8 +27,16 @@ class HistoriaObstetriciaController extends Controller
 	public function accessRules()
 	{
 		return array(
+			array('allow',  // allow all users to perform 'index' and 'view' actions
+				'actions'=>array('index','view'),
+				'users'=>array('*'),
+			),
+			array('allow', // allow authenticated user to perform 'create' and 'update' actions
+				'actions'=>array('create','update'),
+				'users'=>array('secretaria'),
+			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete','create','update','index','view'),
+				'actions'=>array('admin','delete'),
 				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
@@ -43,12 +51,8 @@ class HistoriaObstetriciaController extends Controller
 	 */
 	public function actionView($id)
 	{
-        $modelGineco = $this->loadModel($id);
-        $model_historia_paciente = HistoriaObstetricia::model()->getHistoriasObstetriciaByPaciente($modelGineco->paciente->id);
-
 		$this->render('view',array(
-			'model'=>$modelGineco,
-			'model_historia_paciente'=>$model_historia_paciente,
+			'model'=>$this->loadModel($id),
 		));
 	}
 
@@ -58,14 +62,14 @@ class HistoriaObstetriciaController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new HistoriaObstetricia;
+		$model=new Calendario;
 
 		// Uncomment the following line if AJAX validation is needed
-		$this->performAjaxValidation($model);
-                
-		if(isset($_POST['HistoriaObstetricia']))
+		// $this->performAjaxValidation($model);
+
+		if(isset($_POST['Calendario']))
 		{
-			$model->attributes=$_POST['HistoriaObstetricia'];
+			$model->attributes=$_POST['Calendario'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -83,21 +87,19 @@ class HistoriaObstetriciaController extends Controller
 	public function actionUpdate($id)
 	{
 		$model=$this->loadModel($id);
-        $model_historia_paciente = HistoriaObstetricia::model()->getHistoriasObstetriciaByPaciente($model->paciente->id);
 
 		// Uncomment the following line if AJAX validation is needed
-		$this->performAjaxValidation($model);
+		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['HistoriaObstetricia']))
+		if(isset($_POST['Calendario']))
 		{
-			$model->attributes=$_POST['HistoriaObstetricia'];
+			$model->attributes=$_POST['Calendario'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
 
 		$this->render('update',array(
 			'model'=>$model,
-            'model_historia_paciente' => $model_historia_paciente,
 		));
 	}
 
@@ -120,7 +122,7 @@ class HistoriaObstetriciaController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('HistoriaObstetricia');
+		$dataProvider=new CActiveDataProvider('Calendario');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -131,10 +133,10 @@ class HistoriaObstetriciaController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new HistoriaObstetricia('search');
+		$model=new Calendario('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['HistoriaObstetricia']))
-			$model->attributes=$_GET['HistoriaObstetricia'];
+		if(isset($_GET['Calendario']))
+			$model->attributes=$_GET['Calendario'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -148,7 +150,7 @@ class HistoriaObstetriciaController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=HistoriaObstetricia::model()->findByPk($id);
+		$model=Calendario::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -160,19 +162,10 @@ class HistoriaObstetriciaController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='historia-obstetricia-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='calendario-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}
 	}
-        
-        public function getTensionArterial($id)
-        {
-            $model=$this->loadModel($id);
-            
-            return $model->tension_arterial_mm.'/'.$model->tension_arterial_hg;
-            
-        }
-        
 }

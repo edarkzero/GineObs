@@ -156,6 +156,17 @@ div.form textarea,
 div.form select
 {
 	margin: 0.2em 0 0.5em 0;
+    width: 645px;
+}
+
+div.form select
+{
+    width: 658px;
+}
+
+div.form input[type="radio"],div.form input[type="submit"]
+{
+    width: auto;
 }
 
 div.form fieldset
@@ -257,7 +268,7 @@ div.wide.form label
 	float: left;
 	margin-right: 10px;
 	position: relative;
-	text-align: right;
+	text-align: left;
 	width: 100px;
 }
 
@@ -269,5 +280,44 @@ div.wide.form .row
 div.wide.form .buttons, div.wide.form .hint, div.wide.form .errorMessage
 {
 	clear: left;
-	padding-left: 110px;
+	/*padding-left: 110px;*/
+}
+
+.pull-left
+{
+    float: left;
+}
+
+.pull-right
+{
+    float: right;
+}
+
+div.fc-event-content
+{
+
+}
+
+table
+{
+    width: 100% !important;
+    margin-top: 25px !important;
+}
+
+.nav-list
+{
+    width: 100% !important;
+}
+
+.cuadro
+{
+    border: 2px solid black;
+    margin-bottom: 15px;
+    background-color: #f5f5f5;
+}
+
+.cuadro p
+{
+    margin: 10px;
+    color: #717171;
 }

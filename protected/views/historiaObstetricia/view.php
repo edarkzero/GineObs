@@ -1,6 +1,7 @@
 <?php
 /* @var $this HistoriaObstetriciaController */
 /* @var $model HistoriaObstetricia */
+/* @var $model_historia_paciente HistoriaObstetricia[] */
 
 $this->breadcrumbs=array(
 	'Historias Obstetricia'=>array('index'),
@@ -37,3 +38,14 @@ $this->menu=array(
 		'otros',
 	),
 )); ?>
+
+<h2>Historias</h2>
+
+<?php
+$this->widget('zii.widgets.CListView', array(
+    'dataProvider'=>$model_historia_paciente,
+    'itemView' => '_historias_obstetricia',
+    'ajaxUpdate'=>true,
+    'enablePagination'=>true,
+));
+?>
