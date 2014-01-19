@@ -1,0 +1,19 @@
+#paciente-form #tab-form .tab-content, #paciente-form #tab-form ul .active a
+{
+    background: none;
+}
+
+#paciente-form #tab-form input,#paciente-form #tab-form textarea
+{
+    width: 98%;
+}
+
+#paciente-form #tab-form select
+{
+    width: 100%;
+}
+
+#paciente-form #tab-form input[type="checkbox"],#paciente-form #tab-form input[type="radio"],#paciente-form #tab-form input[type="submit"]
+{
+    width: auto;
+}

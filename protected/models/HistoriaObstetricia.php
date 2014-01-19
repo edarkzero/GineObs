@@ -23,6 +23,7 @@
 class HistoriaObstetricia extends CActiveRecord
 {
         var $tension_arterial;
+        public $paciente_nombre;
     
         public function behaviors() {
             
@@ -114,7 +115,7 @@ class HistoriaObstetricia extends CActiveRecord
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			//array('id, paciente_id, fecha, peso, tension_arterial_mm, tension_arterial_hg, altura_uterina, foco_fetal, edad_embarazo, edemas, otros', 'safe', 'on'=>'search'),
-			array('paciente_id, fecha, peso, edad_embarazo', 'safe', 'on'=>'search'),
+			array('paciente_id, fecha, peso, edad_embarazo,edemas,foco_fetal', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -137,7 +138,8 @@ class HistoriaObstetricia extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'paciente_id' => 'Paciente',
+			'paciente_id' => 'Cedula',
+            'paciente_nombre' => 'Paciente',
 			'fecha' => 'Fecha',
 			'peso' => 'Peso Fetal (Kg)',
 			'tension_arterial' => 'Tension Arterial (mm/Hg)',
@@ -162,8 +164,18 @@ class HistoriaObstetricia extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
+        $criteria->together = true;
+
+        $criteria->with = array(
+            'paciente',
+        );
+
 		$criteria->compare('id',$this->id,true);
 		$criteria->compare('paciente_id',$this->paciente_id,true);
+        $criteria->compare('paciente.nombre1',$this->paciente_nombre,true,'OR');
+        $criteria->compare('paciente.nombre2',$this->paciente_nombre,true,'OR');
+        $criteria->compare('paciente.apellido1',$this->paciente_nombre,true,'OR');
+        $criteria->compare('paciente.apellido2',$this->paciente_nombre,true,'OR');
 		$criteria->compare('fecha',$this->fecha,true);
 		$criteria->compare('peso',$this->peso);
 		$criteria->compare('tension_arterial_mm',$this->tension_arterial_mm,true);

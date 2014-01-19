@@ -14,6 +14,7 @@ $this->menu=array(
 	array('label'=>'Actualizar Historia Obstetricia', 'url'=>array('update', 'id'=>$model->id)),
 	array('label'=>'Borrar Historia Obstetricia', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
 	array('label'=>'Administrar Historias Obstetricia', 'url'=>array('admin')),
+    array('label' => 'Ver Historia Completa', 'url' => array('historia', 'id'=>$model->id)),
 );
 ?>
 

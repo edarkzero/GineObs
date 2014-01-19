@@ -13,6 +13,7 @@ $this->menu=array(
 	array('label'=>'Crear Historia Obstetricia', 'url'=>array('create')),
 	array('label'=>'Ver Historia Obstetricia', 'url'=>array('view', 'id'=>$model->id)),
 	array('label'=>'Administrar Historias Obstetricia', 'url'=>array('admin')),
+    array('label' => 'Ver Historia Completa', 'url' => array('historia', 'id'=>$model->id)),
 );
 ?>
 

@@ -30,21 +30,22 @@
 			array('label'=>'Administracion de sistema <span class="caret"></span>', 'url'=>array('/Ginecologia', 'view'=>'columns'),'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"Datos iniciales"), 
                             'items'=>array(
                                 array('label'=>'Enfermedades', 'url'=>array('/enfermedad/admin')),
-                                array('label'=>'Vademecum', 'url'=>array('/medicina/admin')),
+                                array('label'=>'Medicinas', 'url'=>array('/medicina/admin')),
                             )),
-			
+
+                        array('label'=>'Pacientes', 'url'=>array('/paciente/admin'),'linkOptions'=>array("data-description"=>"Datos de pacientes"),),
+
                         array('label'=>'Historia <span class="caret"></span>', 'url'=>array('/site/page', 'view'=>'columns'),'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"Historias medicas"), 
                             'items'=>array(
                                 array('label'=>'Historia de Ginecologia', 'url'=>array('/historiaGinecologia/admin')),
                                 array('label'=>'Historia de Obstetricia', 'url'=>array('/historiaObstetricia/admin')),
                             )),
 
-                        array('label'=>'Pacientes', 'url'=>array('/paciente/admin'),'linkOptions'=>array("data-description"=>"Datos de pacientes"),),
                         array('label'=>'Recipes', 'url'=>array('/recipe/admin'),'linkOptions'=>array("data-description"=>"Datos de recipes"),),
                         array('label'=>'Pagos', 'url'=>array('/pago/admin'),'linkOptions'=>array("data-description"=>"Datos de pagos"),),
-                        array('label'=>'Usuarios', 'url'=>array('/usuario/admin'),'linkOptions'=>array("data-description"=>"Datos de usuarios"),),
                         array('label'=>'Calendario', 'url'=>array('/calendario/admin'),'linkOptions'=>array("data-description"=>"Gestion de calendario"),),
-                        
+                        array('label'=>'Usuarios', 'url'=>array('/usuario/admin'),'linkOptions'=>array("data-description"=>"Datos de usuarios"),),
+
 //                        array('label'=>'Estilos <span class="caret"></span>', 'url'=>'#','itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"6 estilos para la pagina"), 
 //                            'items'=>array(
 //                                array('label'=>'<span class="style" style="background-color:#0088CC;"></span> Estilo 1', 'url'=>"javascript:chooseStyle('style1', 60)"),

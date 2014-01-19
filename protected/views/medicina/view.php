@@ -25,10 +25,3 @@ $this->menu=array(
 		'unidadPatron',
 	),
 )); ?>
-
-
-<ul><?php foreach($model->recipes as $foreignobj) { 
-
-				printf('<li>%s</li>', CHtml::link($foreignobj->indicaciones, array('recipe/view', 'id' => $foreignobj->id)));
-
-				} ?></ul>

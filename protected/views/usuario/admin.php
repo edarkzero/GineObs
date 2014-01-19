@@ -41,7 +41,6 @@ $('.search-form form').submit(function(){
 	'filter'=>$model,
 	'columns'=>array(
 		'nombre',
-		'clave',
 		'nivel',
 		array(
 			'class'=>'CButtonColumn',

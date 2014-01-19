@@ -33,14 +33,6 @@
 	<?php echo CHtml::encode($data->motivo_consulta); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('dir_examen1')); ?>:</b>
-	<?php echo CHtml::encode($data->dir_examen1); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('dir_examen2')); ?>:</b>
-	<?php echo CHtml::encode($data->dir_examen2); ?>
-	<br />
-
 	<b><?php echo CHtml::encode($data->getAttributeLabel('examen_fisico')); ?>:</b>
 	<?php echo CHtml::encode($data->examen_fisico); ?>
 	<br />

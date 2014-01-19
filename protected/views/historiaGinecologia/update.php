@@ -9,10 +9,11 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List HistoriaGinecologia', 'url'=>array('index')),
-	array('label'=>'Create HistoriaGinecologia', 'url'=>array('create')),
-	array('label'=>'View HistoriaGinecologia', 'url'=>array('view', 'id'=>$modelGineco->id)),
-	array('label'=>'Manage HistoriaGinecologia', 'url'=>array('admin')),
+	array('label'=>'Listar HistoriaGinecologia', 'url'=>array('index')),
+	array('label'=>'Crear HistoriaGinecologia', 'url'=>array('create')),
+	array('label'=>'Ver HistoriaGinecologia', 'url'=>array('view', 'id'=>$modelGineco->id)),
+	array('label'=>'Administrar HistoriaGinecologia', 'url'=>array('admin')),
+    array('label' => 'Ver Historia Completa', 'url' => array('historia', 'id'=>$modelGineco->id)),
 );
 ?>
 

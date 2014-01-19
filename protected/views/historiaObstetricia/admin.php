@@ -43,10 +43,9 @@ $('.search-form form').submit(function(){
 	'columns'=>array(
         'paciente_id',
 		array(    
-                    'name'=>'paciente_id',
+                    'name'=>'paciente_nombre',
                     'header'=>'Paciente',
                     'value'=>'Paciente::GET_NOMBRE_COMPLETO_PK($data->paciente_id)',
-                    'filter'=> Paciente::GET_LISTA_NOMBRE_COMPLETO(),
 		),
             
 		'fecha',

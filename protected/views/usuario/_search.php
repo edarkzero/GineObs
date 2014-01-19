@@ -22,11 +22,6 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'clave'); ?>
-		<?php echo $form->textField($model,'clave',array('size'=>20,'maxlength'=>20)); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->label($model,'nivel'); ?>
 		<?php echo $form->textField($model,'nivel'); ?>
 	</div>

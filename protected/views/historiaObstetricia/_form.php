@@ -17,7 +17,18 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'paciente_id'); ?>
-		<?php echo $form->dropDownList($model,'paciente_id',CHtml::listData(Paciente::model()->findAll(array('order'=>'nombre1')),'id','nombreCompleto'),array('empty'=>'Seleccione paciente')); ?>
+		<?php $this->widget('zii.widgets.jui.CJuiAutoComplete', array(
+            'attribute'=>'paciente_id',
+            'model'=>$model,
+            'sourceUrl'=>array('PacienteAutoComplete'),
+            'options'=>array(
+                'minLength'=>'0',
+            ),
+            'htmlOptions'=>array(
+                'size'=>45,
+                'maxlength'=>45,
+            ),
+        )); ?>
 		<?php echo $form->error($model,'paciente_id'); ?>
 	</div>
 
@@ -69,9 +80,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'foco_fetal'); ?>
-		
-		<?php echo '+ '.$form->radioButton($model,'foco_fetal',array('value'=>'0','checked'=>'checked')); ?>
-		<?php echo '- '.$form->radioButton($model,'foco_fetal',array('value'=>'1')); ?>
+        <?php echo $form->listBox($model,'foco_fetal',array('0' => '+','1' => '-')); ?>
 		<?php echo $form->error($model,'foco_fetal'); ?>
 	</div>
 
@@ -83,8 +92,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'edemas'); ?>
-		<?php echo 'Si '.$form->radioButton($model,'edemas',array('value'=>'0','checked'=>'checked')); ?>
-		<?php echo 'No '.$form->radioButton($model,'edemas',array('value'=>'1')); ?>
+        <?php echo $form->listBox($model,'edemas', array('0' => 'SI','1' => 'NO')); ?>
 		<?php echo $form->error($model,'edemas'); ?>
 	</div>
 

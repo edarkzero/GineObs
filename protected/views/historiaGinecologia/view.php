@@ -14,6 +14,7 @@ $this->menu=array(
 	array('label'=>'Actualizar HistoriaGinecologia', 'url'=>array('update', 'id'=>$model->id)),
 	array('label'=>'Borrar HistoriaGinecologia', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
 	array('label'=>'Administrar HistoriaGinecologia', 'url'=>array('admin')),
+    array('label' => 'Ver Historia Completa', 'url' => array('historia', 'id'=>$model->id)),
 );
 ?>
 
@@ -36,8 +37,6 @@ $this->menu=array(
                     'value' => $this->visualizarArreglo($model->ginecologiaEnfermedads,"nombre"),
                 ),
 		'motivo_consulta',
-		'dir_examen1',
-		'dir_examen2',
 		'examen_fisico',
 		'diagnostico',
 		'tratamiento',
@@ -47,10 +46,10 @@ $this->menu=array(
     <h2>Historias</h2>
 
 <?php
-    $this->widget('zii.widgets.CListView', array(
-        'dataProvider'=>$model_historia_paciente,
-        'itemView' => '_historias_ginecologias',
-        'ajaxUpdate'=>true,
-        'enablePagination'=>true,
-    ));
+$this->widget('zii.widgets.CListView', array(
+    'dataProvider'=>$model_historia_paciente,
+    'itemView' => '_historias_ginecologias',
+    'ajaxUpdate'=>true,
+    'enablePagination'=>true,
+));
 ?>

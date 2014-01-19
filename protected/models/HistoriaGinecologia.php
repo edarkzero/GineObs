@@ -21,6 +21,7 @@
 class HistoriaGinecologia extends MtMActiveRecord
 {
         var $relData = array("ginecologia_enfermedad","ginecologia_id","enfermedad_id");
+        public $paciente_nombre;
     
         public function behaviors() {
         
@@ -34,6 +35,7 @@ class HistoriaGinecologia extends MtMActiveRecord
             );
             
         }
+
     
 	/**
 	 * Returns the static model of the specified AR class.
@@ -78,13 +80,10 @@ class HistoriaGinecologia extends MtMActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('paciente_id, fecha,ginecologiaEnfermedads, motivo_consulta, dir_examen1, dir_examen2, examen_fisico, diagnostico, tratamiento', 'required'),
-			array('paciente_id', 'length', 'max'=>8),
-			array('dir_examen1, dir_examen2', 'length', 'max'=>40),
-                        array('ginecologiaEnfermedads','ext.validaciones.checkList'),
+			array('paciente_id, fecha, motivo_consulta', 'required'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, paciente_id, fecha,ginecologiaEnfermedads, motivo_consulta, dir_examen1, dir_examen2, examen_fisico, diagnostico, tratamiento', 'safe', 'on'=>'search'),
+			array('id, paciente_id, fecha,ginecologiaEnfermedads, motivo_consulta, examen_fisico, diagnostico, tratamiento, paciente_nombre', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -108,12 +107,11 @@ class HistoriaGinecologia extends MtMActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'paciente_id' => 'Paciente',
+			'paciente_id' => 'Cedula',
+            'paciente_nombre' => 'Paciente',
 			'fecha' => 'Fecha',
 			'motivo_consulta' => 'Motivo Consulta',
-                        'ginecologiaEnfermedads' => 'Enfermedades',
-			'dir_examen1' => 'Dir Examen1',
-			'dir_examen2' => 'Dir Examen2',
+            'ginecologiaEnfermedads' => 'Enfermedades',
 			'examen_fisico' => 'Examen Fisico',
 			'diagnostico' => 'Diagnostico',
 			'tratamiento' => 'Tratamiento',
@@ -131,13 +129,21 @@ class HistoriaGinecologia extends MtMActiveRecord
 
 		$criteria=new CDbCriteria;
 
+        $criteria->together = true;
+
+        $criteria->with = array(
+            'paciente',
+        );
+
 		$criteria->compare('id',$this->id,true);
 		$criteria->compare('paciente_id',$this->paciente_id,true);
+        $criteria->compare('paciente.nombre1',$this->paciente_nombre,true,'OR');
+        $criteria->compare('paciente.nombre2',$this->paciente_nombre,true,'OR');
+        $criteria->compare('paciente.apellido1',$this->paciente_nombre,true,'OR');
+        $criteria->compare('paciente.apellido2',$this->paciente_nombre,true,'OR');
 		$criteria->compare('fecha',$this->fecha,true);
 		$criteria->compare('ginecologiaEnfermedads',$this->ginecologiaEnfermedads,true);
 		$criteria->compare('motivo_consulta',$this->motivo_consulta,true);
-		$criteria->compare('dir_examen1',$this->dir_examen1,true);
-		$criteria->compare('dir_examen2',$this->dir_examen2,true);
 		$criteria->compare('examen_fisico',$this->examen_fisico,true);
 		$criteria->compare('diagnostico',$this->diagnostico,true);
 		$criteria->compare('tratamiento',$this->tratamiento,true);

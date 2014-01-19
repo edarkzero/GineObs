@@ -396,7 +396,7 @@ $(document).ready(function () {
 
                 datosArray[0] = $.fullCalendar.formatDate(event.start, "yyyy-MM-dd HH:mm:ss");
                 datosArray[1] = $.fullCalendar.formatDate(event.end, "yyyy-MM-dd HH:mm:ss");
-                datosArray[2] = event.title;
+                datosArray[2] = event.title.split("\n\n",2)[1];
 
                 $.post("Update", {type: 0,id: event.id, data: datosArray}, function (data, status) {
                 });
@@ -407,7 +407,7 @@ $(document).ready(function () {
 
                 datosArray[0] = $.fullCalendar.formatDate(event.start, "yyyy-MM-dd HH:mm:ss");
                 datosArray[1] = $.fullCalendar.formatDate(event.end, "yyyy-MM-dd HH:mm:ss");
-                datosArray[2] = event.title;
+                datosArray[2] = event.title.split("\n\n",2)[1];
 
                 $.post("Update", {type: 0,id: event.id, data: datosArray}, function (data, status) {
                 });
@@ -422,12 +422,12 @@ $(document).ready(function () {
 });
 </script>
 
-<div id="calendar"></div>
+<div id="calendar" style="z-index: 1"></div>
 
-<div id="dialog-options" title="Opciones para los eventos"></div>
-<div id="dialog-add" title="Nuevo evento"></div>
-<div id="dialog-edit" title="Editar evento"></div>
-<div id="dialog-del" title="Eliminar evento"></div>
-<div id="dialog-tipo-evento" title="Tipo de evento"></div>
-<div id="cita-ingresar" title="Nueva cita"></div>
-<div id="cita-editar" title="Editar cita"></div>
+<div id="dialog-options" title="Opciones para los eventos" style="z-index: 99999999999"></div>
+<div id="dialog-add" title="Nuevo evento" style="z-index: 99999999999"></div>
+<div id="dialog-edit" title="Editar evento" style="z-index: 99999999999"></div>
+<div id="dialog-del" title="Eliminar evento" style="z-index: 99999999999"></div>
+<div id="dialog-tipo-evento" title="Tipo de evento" style="z-index: 99999999999"></div>
+<div id="cita-ingresar" title="Nueva cita" style="z-index: 99999999999"></div>
+<div id="cita-editar" title="Editar cita" style="z-index: 99999999999"></div>

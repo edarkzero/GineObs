@@ -28,7 +28,7 @@ class HistoriaObstetriciaController extends Controller
 	{
 		return array(
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete','create','update','index','view'),
+				'actions'=>array('admin','delete','create','update','index','view','pacienteAutoComplete','historia','createPDF'),
 				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
@@ -36,6 +36,28 @@ class HistoriaObstetriciaController extends Controller
 			),
 		);
 	}
+
+    public function actionPacienteAutoComplete()
+    {
+        $search = $_GET['term'];
+        $criteria = new CDbCriteria();
+        $criteria->compare('id',$search,true,'OR');
+        $criteria->compare('nombre1',$search,true,'OR');
+        $criteria->compare('nombre2',$search,true,'OR');
+        $criteria->compare('apellido1',$search,true,'OR');
+        $criteria->compare('apellido2',$search,true,'OR');
+        $criteria->order = 'nombre1';
+
+        $pacientes = Paciente::model()->findAll($criteria);
+        $array = array();
+
+        foreach($pacientes as $paciente)
+        {
+            $array[] = $paciente->id . " - " . $paciente->nombre1 . ' ' . $paciente->apellido1;
+        }
+
+        echo CJSON::encode($array);
+    }
 
 	/**
 	 * Displays a particular model.
@@ -100,6 +122,57 @@ class HistoriaObstetriciaController extends Controller
             'model_historia_paciente' => $model_historia_paciente,
 		));
 	}
+
+    public function ActionCreatePDF($id)
+    {
+        $mpdf = Yii::app()->ePdf->mpdf();
+
+        $model_historia = $this->loadModel($id);
+        $model_historiaO_paciente = HistoriaObstetricia::model()->getHistoriasObstetriciaByPaciente($model_historia->paciente->id);
+        $model_historiaG_paciente = HistoriaGinecologia::model()->getHistoriasGinecologicasByPaciente($model_historia->paciente->id);
+        $historia = array($model_historiaG_paciente, $model_historiaO_paciente);
+
+        $stylesheet = file_get_contents('C:\wamp\www\Gineobs\themes\hebo\css\pdfMain.css');
+
+        //configurando pdf general
+        $mpdf = new mPDF('utf-8', 'Letter-L');
+
+        //agregando header y footer
+        $mpdf->SetHeader('{DATE j-m-Y}||Recipe #' . $model_historia->paciente->id);
+        $mpdf->SetFooter('Dr. María Hernández|Ginecologia y obstetricia|{PAGENO}');
+
+        //Propiedades del PDF
+        $mpdf->setTitle("Historia Medica");
+        $mpdf->setAuthor("María Hernández");
+        $mpdf->setCreator("Edgar Cardona y Gabriela Soto");
+        $mpdf->setSubject("Historia medica de pacientes.");
+        $mpdf->setKeywords("Historia,Medicina");
+
+        //escribiendo CSS
+        $mpdf->WriteHTML($stylesheet, 1);
+
+        //Escribiendo PDF
+        $mpdf->writeHTML($this->renderPartial('historia', array(
+            'model' => $model_historia->paciente->id,
+            'historia' => $historia,
+        ),true), 2);
+
+        //Salida
+        $mpdf->output("Recipe Medico", EYiiPdf::OUTPUT_TO_DOWNLOAD);
+    }
+
+    public function actionHistoria($id)
+    {
+        $model_historia = $this->loadModel($id);
+        $model_historiaO_paciente = HistoriaObstetricia::model()->getHistoriasObstetriciaByPaciente($model_historia->paciente->id);
+        $model_historiaG_paciente = HistoriaGinecologia::model()->getHistoriasGinecologicasByPaciente($model_historia->paciente->id);
+        $historia = array($model_historiaG_paciente,$model_historiaO_paciente);
+
+        $this->render('historia',array(
+            'model' => $model_historia->paciente->id,
+            'historia' => $historia,
+        ));
+    }
 
 	/**
 	 * Deletes a particular model.

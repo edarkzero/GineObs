@@ -84,7 +84,6 @@ class Usuario extends CActiveRecord
 
 		$criteria->compare('id',$this->id,true);
 		$criteria->compare('nombre',$this->nombre,true);
-		$criteria->compare('clave',$this->clave,true);
 		$criteria->compare('nivel',$this->nivel);
 
 		return new CActiveDataProvider($this, array(

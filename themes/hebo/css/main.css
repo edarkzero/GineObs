@@ -75,10 +75,10 @@ div[class="view"]
     margin: 0 0 10px 0;
 }
 
-td[class^="button-column"]
+.table tbody tr td[class^="button-column"]
 {
    
-    width:57px;
+    min-width:57px!important;
 }
 
 .view-detail-container
@@ -164,7 +164,7 @@ div.form select
     width: 658px;
 }
 
-div.form input[type="radio"],div.form input[type="submit"]
+div.form input[type="checkbox"],div.form input[type="radio"],div.form input[type="submit"]
 {
     width: auto;
 }
@@ -298,15 +298,9 @@ div.fc-event-content
 
 }
 
-table
-{
-    width: 100% !important;
-    margin-top: 25px !important;
-}
-
 .nav-list
 {
-    width: 100% !important;
+    width: 285px!important;
 }
 
 .cuadro
@@ -320,4 +314,25 @@ table
 {
     margin: 10px;
     color: #717171;
+}
+
+.grid-view .filters input, .grid-view .filters select
+{
+    width: 94%!important;
+    max-width: 800px!important;
+    min-width: inherit!important;
+}
+
+.grid-view .summary
+{
+    text-align: left!important;
+}
+.ui-dialog
+{
+    z-index: 99999;
+}
+
+.ui-autocomplete-input
+{
+    width: 98%;
 }

@@ -17,8 +17,20 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($modelGineco,'paciente_id'); ?>
-                <?php echo $form->dropDownList($modelGineco,'paciente_id',CHtml::listData(Paciente::model()->findAll(array('order'=>'nombre1')),'id','nombreCompleto'),array('empty'=>'Seleccione paciente')); ?>
-                <?php echo $form->error($modelGineco,'paciente_id'); ?>
+        <?php $this->widget('zii.widgets.jui.CJuiAutoComplete', array(
+            'attribute'=>'paciente_id',
+            'model'=>$modelGineco,
+            'sourceUrl'=>array('PacienteAutoComplete'),
+            'options'=>array(
+                'minLength'=>'0',
+            ),
+            'htmlOptions'=>array(
+                'size'=>45,
+                'maxlength'=>45,
+            ),
+        ));
+        /*$form->dropDownList($modelGineco,'paciente_id',CHtml::listData(Paciente::model()->findAll(array('order'=>'nombre1')),'id','nombreCompleto'),array('empty'=>'Seleccione paciente'))*/;?>
+        <?php echo $form->error($modelGineco,'paciente_id'); ?>
 	</div>
 
 	<div class="row">
@@ -51,18 +63,6 @@
 		<?php echo $form->labelEx($modelGineco,'motivo_consulta'); ?>
 		<?php echo $form->textArea($modelGineco,'motivo_consulta',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($modelGineco,'motivo_consulta'); ?>
-	</div>
-        
-	<div class="row">
-		<?php echo $form->labelEx($modelGineco,'dir_examen1'); ?>
-		<?php echo $form->textField($modelGineco,'dir_examen1',array('size'=>40,'maxlength'=>40)); ?>
-		<?php echo $form->error($modelGineco,'dir_examen1'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($modelGineco,'dir_examen2'); ?>
-		<?php echo $form->textField($modelGineco,'dir_examen2',array('size'=>40,'maxlength'=>40)); ?>
-		<?php echo $form->error($modelGineco,'dir_examen2'); ?>
 	</div>
 
 	<div class="row">

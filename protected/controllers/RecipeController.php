@@ -180,9 +180,9 @@ class RecipeController extends Controller
             $mpdf = Yii::app()->ePdf->mpdf();
             $model=$this->loadModel($id);
          
-            $stylesheet = file_get_contents('C:\wamp\www\Gineobs\themes\hebo\css\pdfMain.css');
+            $stylesheet = file_get_contents('C:\xampp\htdocs\Gineobs\themes\hebo\css\pdfMain.css');
              
-            $texto = $texto.'<div id=contenedor>';
+            $texto = '<div id=contenedor>';
             
                 $texto = $texto.'<div id=columna1>';
                     $texto = $texto.'<H1 class="h1PDF"> Dra. Maria C. Hernandez N.</H1>';

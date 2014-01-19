@@ -13,10 +13,6 @@
 	<?php echo CHtml::encode($data->nombre); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('clave')); ?>:</b>
-	<?php echo CHtml::encode($data->clave); ?>
-	<br />
-
 	<b><?php echo CHtml::encode($data->getAttributeLabel('nivel')); ?>:</b>
 	<?php echo CHtml::encode($data->nivel); ?>
 	<br />
