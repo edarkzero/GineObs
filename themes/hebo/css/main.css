@@ -336,3 +336,18 @@ div.fc-event-content
 {
     width: 98%;
 }
+
+#head-navigation-main .navbar .navbar-inner .container div.nav-collapse ul
+{
+    width: 100%;
+}
+
+#head-navigation-main .navbar .navbar-inner .container div.nav-collapse ul li
+{
+    float: right;
+}
+
+footer
+{
+    margin-top: 20px;
+}

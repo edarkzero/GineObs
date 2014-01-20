@@ -23,6 +23,7 @@
         'import'         => array(
             'application.models.*',
             'application.components.*',
+            'application.include.*',
         ),
 
         'modules'        => array(

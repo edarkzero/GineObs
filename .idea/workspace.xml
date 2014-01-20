@@ -1,1027 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ea2d264-cd7b-49ff-87a8-75368b9a3d23" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/font/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/about.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/about.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/anchor-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/anchor-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/link/images/anchor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/anchor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/anchor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/angel_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/angry_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/bgcolor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/bgcolor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/bidiltr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/bidiltr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/bidirtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/bidirtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/showblocks/images/block_address.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/showblocks/images/block_blockquote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/showblocks/images/block_div.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/showblocks/images/block_h1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/showblocks/images/block_h2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/showblocks/images/block_h3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/showblocks/images/block_h4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/showblocks/images/block_h5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/showblocks/images/block_h6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/showblocks/images/block_p.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/showblocks/images/block_pre.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/blockquote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/blockquote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/bold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/bold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/broken_heart.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/bulletedlist-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/bulletedlist-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/bulletedlist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/bulletedlist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/checkbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/checkbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/clear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/confused_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/copy-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/copy-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/creatediv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/creatediv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/icons/createplaceholder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/cry_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/cut-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/cut-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/cut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/cut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/devil_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/images/dialog_sides.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/images/dialog_sides.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/images/dialog_sides_rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/icons/docprops-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/icons/docprops.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/icons/editplaceholder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/embaressed_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/envelope.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/find-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/find-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/find.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/find.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/flash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/flash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/font/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/font/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/font/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/form.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/form.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/bootstrap/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/bootstrap/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/heart.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/forms/images/hiddenfield.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/hiddenfield.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/hiddenfield.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/horizontalrule.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/horizontalrule.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/hue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/yui/assets/hue_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/yui/assets/hue_thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/magicline/images/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/iframe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/iframe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/imagebutton.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/imagebutton.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/imagepaste2.3.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/indent-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/indent-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/indent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/indent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/italic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/italic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/justifyblock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/justifyblock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/justifycenter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/justifycenter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/justifyleft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/justifyleft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/justifyright.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/justifyright.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/kiss.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/lightbulb.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/assets/inlineall/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/about/dialogs/logo_ckeditor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/markdown-editor-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/maximize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/maximize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/images/mini.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/images/mini.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/images/mini.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/newpage-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/newpage-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/newpage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/newpage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/image/images/noimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/numberedlist-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/numberedlist-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/numberedlist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/numberedlist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/omg_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/outdent-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/outdent-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/outdent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/outdent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/assets/outputforflash/outputforflash.fla" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/assets/outputforflash/outputforflash.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/pagebreak-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/pagebreak-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/pagebreak/images/pagebreak.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/pagebreak.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/pagebreak.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/paste-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/paste-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/paste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/paste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/pastefromword-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/pastefromword-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/pastefromword.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/pastefromword.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/pastetext-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/pastetext-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/pastetext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/pastetext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/yui/assets/picker_mask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/yui/assets/picker_thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/flash/images/placeholder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/iframe/images/placeholder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/preview-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/preview-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/preview.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/preview.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/print.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/print.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/progressbar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/radio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/radio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/redo-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/redo-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/redo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/redo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/regular_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/removeformat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/removeformat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/replace.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/replace.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/sad_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/saturation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/save.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/save.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/scayt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/scayt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/select-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/select-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/select.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/select.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/select2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/select2x2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/selectall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/selectall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/shades_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/showblocks-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/showblocks-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/showblocks.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/showblocks.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/smiley.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/smiley.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/source-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/source-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/source.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/source.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/fakeobjects/images/spacer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/specialchar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/specialchar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/spellchecker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/spellchecker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/spinner.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/images/sprites.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/images/sprites_ie6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/strike.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/strike.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/subscript.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/subscript.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/superscript.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/superscript.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/table.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/table.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/teeth_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/templates/templates/images/template1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/templates/templates/images/template2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/templates/templates/images/template3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/templates-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/templates-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/templates.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/templates.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/textarea-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/textarea-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/textarea.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/textarea.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/textcolor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/textcolor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/textfield-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/textfield-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/textfield.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/textfield.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/thumbs_down.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/thumbs_up.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/images/toolbar_start.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/tounge_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-bg_glass_75_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-bg_inset-soft_95_fef1ec_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-icons_f6cf3b_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/icons/uicolor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/underline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/underline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/undo-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/undo-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/undo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/undo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/icons/unlink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/icons/unlink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images/wink_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/API-CHANGES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/components/Bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/BootstrapCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/filters/BootstrapFilter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/BootstrapGenerator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/INSTALL.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/components/JSONStorage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/helpers/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbActiveForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbAlert.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbBadge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbBaseMenu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbBox.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbBreadcrumbs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbBulkActions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbButton.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbButtonColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbButtonGroup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbButtonGroupColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbCKEditor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbCarousel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbCollapse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbColorPicker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbDataColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbDatePicker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbDateRangePicker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbDetailView.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbDropdown.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbEditableColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbEditableDetailView.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbEditableField.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbEditableSaver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbExtendedFilter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbExtendedGridView.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbExtendedTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/actions/TbExtendedTooltipAction.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbFileUpload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbFormButtonElement.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbFormInputElement.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbGoogleVisualizationChart.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbGridView.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbGroupButtonColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbGroupGridView.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbHeroUnit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbHighCharts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/helpers/TbHtml.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbHtml5Editor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbImageColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbImageGallery.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/input/TbInput.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/input/TbInputHorizontal.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/input/TbInputInline.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/input/TbInputSearch.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/input/TbInputVertical.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbJsonButtonColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbJsonCheckBoxColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbJsonDataColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbJsonGridColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbJsonGridView.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbJsonPager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbJsonPickerColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbListView.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbMarkdownEditorJs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbMenu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbModal.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbModalManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbNavbar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbPager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbPickerColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbProgress.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbRedactorJs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbRelationalColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbScrollSpy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbSelect2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/actions/TbSortableAction.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbTabView.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbTabs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbTags.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbThumbnails.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbTimePicker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/actions/TbToggleAction.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbToggleButton.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbToggleColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbTotalSumColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbTypeahead.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbWizard.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/_form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/paciente/_formAnalisisData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/paciente/_formPersonalData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/historiaObstetricia/_historias_ginecologias.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/historiaGinecologia/_historias_obstetricia.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/_languages.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/_search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/_translationstatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/_translationstatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/_translationstatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/_translationstatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/about/dialogs/about.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/af.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/af.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/ajax.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/link/dialogs/anchor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/api.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/apidialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/appendto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/autogrow.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/az.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/ba.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/bbcode/samples/bbcode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/bbcode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/bn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/bn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-box.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-colorpicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.kr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-datepicker.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap-datepicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.rs-latin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.rs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.sw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-daterangepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-editable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap-editable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-editable.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap-editable.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-image-gallery.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap-image-gallery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-image-gallery.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap-image-gallery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-modalmanager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap-modalmanager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-notify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-picker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-relational.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-tags.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-timepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-toggle-buttons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-wysihtml5.bg-BG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-wysihtml5.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-wysihtml5.de-DE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-wysihtml5.es-ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-wysihtml5.fr-FR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-wysihtml5.fr-NL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-wysihtml5.hu-HU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-wysihtml5.it-IT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap-wysihtml5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-wysihtml5.pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-wysihtml5.sv-SE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-yii.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.bootbox.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.colorpicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.daterangepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/bootstrap/css/bootstrap.no-icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/bootstrap/css/bootstrap.no-icons.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/bootstrap/css/bootstrap.no-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/bootstrap/css/bootstrap.no-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/bootstrap/css/bootstrap.no-responsive.no-icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/bootstrap/css/bootstrap.no-responsive.no-icons.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.notify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.picker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.responsive.tables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.tags.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.timepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/bs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/bs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/forms/dialogs/button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/by.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/fileupload/canvas-to-blob.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/modules/canvas-tools.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/modules/canvas-tools.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/forms/dialogs/checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/wsc/dialogs/ciframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/ckeditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/clipboard/samples/clipboard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/redactor/plugins/clips.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/redactor/plugins/clips.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/colordialog/dialogs/colordialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/colorpanel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/colorpanel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/contents.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/create.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/themes/dark-blue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/themes/dark-green.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/date.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/pastefromword/filter/default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/templates/templates/default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/devtools.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/dialog/dialogDefinition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/dialog_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/dialog_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/dialog_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/dialog_ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/dialog_ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/dialog_ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/dialog_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/dialog_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/dialog_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/dialog_iequirks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/dialog_opera.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/dialog_opera.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/div/dialogs/div.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/divarea.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/divreplace.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/dialogs/docprops.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/views/fileupload/download.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/easy-pie-chart.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/editor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/editor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/editor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/editor_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/editor_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/editor_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/editor_ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/editor_ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/editor_ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/editor_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/editor_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/editor_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/editor_iequirks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/elementspath.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/elementspath.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/en-au.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/en-au.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/en-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/en-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/en-gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/en-gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/enterkey.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/es_ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/modules/exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/modules/exporting.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/find/dialogs/find.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/flash/dialogs/flash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/fo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/fo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/font-awesome-ie7.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/forms/dialogs/form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/views/fileupload/form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/fr-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/fr-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/fullpage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/redactor/plugins/fullscreen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gineobs.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/themes/gray.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/themes/grid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/forms/dialogs/hiddenfield.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/highcharts-more.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/highcharts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/highcharts.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/historiaGinecologia/historia.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/historiaObstetricia/historia.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/iframe/dialogs/iframe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/image/dialogs/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/views/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/inlineall.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/inlinebycode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/imagepaste/docs/install.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/fileupload/vendor/jquery-ui-1.9.1.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/jquery-ui-bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.ajax.cache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.bootstrap.wizard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.easy.pie.chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/fileupload/jquery.fileupload-fp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/fileupload/jquery.fileupload-ip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/fileupload/jquery.fileupload-locale.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/fileupload/jquery.fileupload-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/fileupload/jquery.fileupload-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/fileupload/jquery.fileupload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/fileupload/jquery.iframe-transport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.jqote2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.json.yiigridview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/fileupload/cors/jquery.postmessage-transport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.selectable.gridview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.sortable.gridview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.stickytableheaders.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.stickytableheaders.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.timepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.toggle.buttons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/fileupload/vendor/jquery.ui.widget.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/fileupload/cors/jquery.xdr-transport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/ka.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/ka.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/redactor/license.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/link/dialogs/link.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/liststyle/dialogs/liststyle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/fileupload/load-image.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/magicline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/fileupload/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/mainui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/mainui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/markdown.converter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/markdown.editor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/markdown.editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/markdown.sanitizer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/mn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/mn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/moment.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/adapters/mootools-adapter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/adapters/mootools-adapter.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/assets/apidialog/my_dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/no_NB.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/scayt/dialogs/options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/outputforflash.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/outputhtml.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/assets/outputxhtml/outputxhtml.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/outputxhtml.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/components/packages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/panel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/panel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/clipboard/dialogs/paste.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/placeholder.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/dialogs/placeholder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/adobeair/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/ajax/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/autogrow/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/bbcode/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/dialogadvtab/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/divarea/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/iframedialog/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/imagepaste/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/selectionmark/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/stylesheetparser/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/tableresize/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/xml/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/assets/posteddata.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/presets.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/presets.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/preview/preview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/views/gallery/preview.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/adapters/prototype-adapter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/adapters/prototype-adapter.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/pt_br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/forms/dialogs/radio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/readonly.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/redactor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/redactor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/redactor.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/replacebyclass.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/replacebycode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/richcombo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/richcombo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/sample.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/assets/sample.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/assets/stylesheetparser/sample.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/magicline/samples/sample.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/sample_posteddata.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/forms/dialogs/select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/select2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/select2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/select2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/themes/skies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/skin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/skin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/dialogs/smiley.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/sr-cir.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/sr-lat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/sr-latn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/sr-latn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/imagepaste/docs/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/styles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/stylesheetparser.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/assets/outputforflash/swfobject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/hebo/css/tabForm.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/tabindex.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/table/dialogs/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/tableresize.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/templates/dialogs/templates.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/templates/dialogs/templates.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/forms/dialogs/textarea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/forms/dialogs/textfield.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/fileupload/tmpl.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/scayt/dialogs/toolbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-dark/toolbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/skins/moono-light/toolbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/toolbar/samples/toolbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/ua.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/uicolor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/dialogs/uicolor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/samples/uilanguages.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/update.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/views/fileupload/upload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web.config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/widgets.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/wsc/dialogs/wsc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/wsc/dialogs/wsc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/wysihtml5-0.3.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/wysiwyg-color.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/yui/assets/yui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/yui/yui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/placeholder/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/uicolor/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/lang/zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/ckeditor/plugins/docprops/lang/zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/zh_cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor/zh_tw.js" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Gineobs\protected\views\layouts\column1.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/HistoriaGinecologia.php" afterPath="$PROJECT_DIR$/protected/models/HistoriaGinecologia.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/HistoriaGinecologiaController.php" afterPath="$PROJECT_DIR$/protected/controllers/HistoriaGinecologiaController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/HistoriaObstetricia.php" afterPath="$PROJECT_DIR$/protected/models/HistoriaObstetricia.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/HistoriaObstetriciaController.php" afterPath="$PROJECT_DIR$/protected/controllers/HistoriaObstetriciaController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Pago.php" afterPath="$PROJECT_DIR$/protected/models/Pago.php" />
+    <list default="true" id="0ea2d264-cd7b-49ff-87a8-75368b9a3d23" name="Default" comment="Introduciendo el dashboard">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2-spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2x2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.14/ControllerCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/controllers/DashboardController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/include/DataShow.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/include/DateTools.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/include/IpTools.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/include/Mail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/include/ModelBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/include/ModelDataParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/include/Password.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/include/SessionManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/include/SpecialOperations.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/include/Validator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/include/WatermarkCreator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/dashboard/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/release.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2-bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_en.js.template" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_pt-BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_pt-PT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_ua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/select2/select2_locale_zh-TW.js" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Gineobs\protected\runtime\application.log.1" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Gineobs\protected\runtime\application.log.2" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Gineobs\protected\runtime\application.log.3" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Gineobs\protected\runtime\application.log.4" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Gineobs\protected\runtime\application.log.5" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Gineobs.iml" afterPath="$PROJECT_DIR$/.idea/Gineobs.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/RecipeController.php" afterPath="$PROJECT_DIR$/protected/controllers/RecipeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Usuario.php" afterPath="$PROJECT_DIR$/protected/models/Usuario.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/historiaGinecologia/_form.php" afterPath="$PROJECT_DIR$/protected/views/historiaGinecologia/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/historiaObstetricia/_form.php" afterPath="$PROJECT_DIR$/protected/views/historiaObstetricia/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/paciente/_form.php" afterPath="$PROJECT_DIR$/protected/views/paciente/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/usuario/_search.php" afterPath="$PROJECT_DIR$/protected/views/usuario/_search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/historiaGinecologia/_view.php" afterPath="$PROJECT_DIR$/protected/views/historiaGinecologia/_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/usuario/_view.php" afterPath="$PROJECT_DIR$/protected/views/usuario/_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/calendario/admin.php" afterPath="$PROJECT_DIR$/protected/views/calendario/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/historiaGinecologia/admin.php" afterPath="$PROJECT_DIR$/protected/views/historiaGinecologia/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/historiaObstetricia/admin.php" afterPath="$PROJECT_DIR$/protected/views/historiaObstetricia/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/paciente/admin.php" afterPath="$PROJECT_DIR$/protected/views/paciente/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/usuario/admin.php" afterPath="$PROJECT_DIR$/protected/views/usuario/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log.1" afterPath="$PROJECT_DIR$/protected/runtime/application.log.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log.2" afterPath="$PROJECT_DIR$/protected/runtime/application.log.2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log.3" afterPath="$PROJECT_DIR$/protected/runtime/application.log.3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log.4" afterPath="$PROJECT_DIR$/protected/runtime/application.log.4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log.5" afterPath="$PROJECT_DIR$/protected/runtime/application.log.5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/messages/es/app.php" afterPath="$PROJECT_DIR$/protected/messages/es/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/hebo/views/layouts/header.php" afterPath="$PROJECT_DIR$/themes/hebo/views/layouts/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/hebo/css/main.css" afterPath="$PROJECT_DIR$/themes/hebo/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/hebo/views/layouts/tpl_navigation.php" afterPath="$PROJECT_DIR$/themes/hebo/views/layouts/tpl_navigation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/historiaGinecologia/update.php" afterPath="$PROJECT_DIR$/protected/views/historiaGinecologia/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/historiaObstetricia/update.php" afterPath="$PROJECT_DIR$/protected/views/historiaObstetricia/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/historiaGinecologia/view.php" afterPath="$PROJECT_DIR$/protected/views/historiaGinecologia/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/historiaObstetricia/view.php" afterPath="$PROJECT_DIR$/protected/views/historiaObstetricia/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/medicina/view.php" afterPath="$PROJECT_DIR$/protected/views/medicina/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/usuario/view.php" afterPath="$PROJECT_DIR$/protected/views/usuario/view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Gineobs.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="assets/" />
+    <ignored path="framework/" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1041,10 +109,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RecipeController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/controllers/RecipeController.php">
+      <file leaf-file-name="tpl_navigation.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/hebo/views/layouts/tpl_navigation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="169" column="31" selection-start="4447" selection-end="4447" vertical-scroll-proportion="0.24" vertical-offset="2753" max-vertical-offset="4522">
+            <state line="40" column="79" selection-start="3804" selection-end="3815" vertical-scroll-proportion="-26.153847" vertical-offset="0" max-vertical-offset="1190">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protected/views/dashboard/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="42" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.8665339" vertical-offset="194" max-vertical-offset="1020">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/dashboard.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="25" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DashboardController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/controllers/DashboardController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="50" selection-start="138" selection-end="138" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="1139">
               <folding />
             </state>
           </provider>
@@ -1069,29 +164,31 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/protected/models/HistoriaGinecologia.php" />
-        <option value="$PROJECT_DIR$/protected/views/historiaGinecologia/_form.php" />
-        <option value="$PROJECT_DIR$/themes/hebo/css/main.css" />
-        <option value="$PROJECT_DIR$/protected/views/historiaObstetricia/_form.php" />
-        <option value="$PROJECT_DIR$/protected/models/HistoriaObstetricia.php" />
-        <option value="$PROJECT_DIR$/protected/views/calendario/admin.php" />
-        <option value="$PROJECT_DIR$/protected/views/historiaGinecologia/update.php" />
-        <option value="$PROJECT_DIR$/protected/views/historiaObstetricia/update.php" />
-        <option value="$PROJECT_DIR$/protected/views/historiaObstetricia/view.php" />
-        <option value="$PROJECT_DIR$/protected/views/historiaGinecologia/view.php" />
         <option value="$PROJECT_DIR$/protected/controllers/HistoriaGinecologiaController.php" />
         <option value="$PROJECT_DIR$/protected/controllers/HistoriaObstetriciaController.php" />
         <option value="$PROJECT_DIR$/protected/views/historiaObstetricia/historia.php" />
         <option value="$PROJECT_DIR$/protected/views/historiaGinecologia/historia.php" />
-        <option value="$PROJECT_DIR$/protected/config/main.php" />
         <option value="$PROJECT_DIR$/protected/controllers/RecipeController.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/themes/hebo/css/main.css" />
+        <option value="$PROJECT_DIR$/themes/hebo/views/layouts/header.php" />
+        <option value="$PROJECT_DIR$/themes/hebo/views/layouts/tpl_navigation.php" />
+        <option value="$PROJECT_DIR$/protected/config/main.php" />
+        <option value="$PROJECT_DIR$/protected/include/ModelDataParser.php" />
+        <option value="$PROJECT_DIR$/protected/messages/es/app.php" />
+        <option value="$PROJECT_DIR$/js/dashboard.js" />
+        <option value="$PROJECT_DIR$/protected/controllers/DashboardController.php" />
+        <option value="$PROJECT_DIR$/protected/views/dashboard/index.php" />
+        <option value="$PROJECT_DIR$/css/dashboard.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
       <path value="." />
-      <path value="C:\php\pear" />
+      <path value="C:\xampp\php\pear" />
+      <path value="C:\xampp\htdocs\framework" />
+      <path value="C:\xampp\php" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -1155,6 +252,94 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hebo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gineobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gineobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hebo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gineobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gineobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hebo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gineobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gineobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hebo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gineobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gineobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="protected" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1191,7 +376,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extensions" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1209,37 +398,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extensions" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="yii-chartjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gineobs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gineobs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extensions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii-chartjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="widgets" />
+              <option name="myItemId" value="medicina" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1257,15 +420,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extensions" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="yii-chartjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1283,19 +442,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extensions" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="yii-chartjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="dashboard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1313,19 +464,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extensions" />
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gineobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gineobs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="yii-chartjs" />
+              <option name="myItemId" value="protected" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="messages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="es" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gineobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gineobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1347,6 +526,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gineobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gineobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gineobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gineobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gineobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gineobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -1355,7 +580,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frimodul" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -1373,6 +598,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Gineobs\css" />
+      <recent name="C:\xampp\htdocs\Gineobs\js" />
       <recent name="C:\wamp\www\Gineobs\protected\views\historiaObstetricia" />
       <recent name="C:\wamp\www\Gineobs\protected\views\historiaGinecologia" />
       <recent name="C:\wamp\www\Gineobs\protected\views\pago" />
@@ -1433,21 +660,24 @@
       <created>1375281553510</created>
       <updated>1375281553510</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="NEW">
+      <created>1390145508377</created>
+      <updated>1390145508377</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32897863" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32819906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30226904" sideWeight="0.6710214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3128039" sideWeight="0.671801" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897863" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -1457,6 +687,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897863" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1466,97 +697,128 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
     <MESSAGE value="ad" />
     <MESSAGE value="NEW" />
-    <option name="LAST_COMMIT_MESSAGE" value="NEW" />
+    <MESSAGE value="Introduciendo el dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="Introduciendo el dashboard" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/views/historiaGinecologia/update.php">
+    <entry file="file://$PROJECT_DIR$/protected/include/DateTools.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="91" selection-start="641" selection-end="653" vertical-scroll-proportion="0.33116883" vertical-offset="0" max-vertical-offset="0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/historiaObstetricia/view.php">
+    <entry file="file://$PROJECT_DIR$/protected/include/ModelBase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="90" selection-start="840" selection-end="840" vertical-scroll-proportion="0.22589168" vertical-offset="0" max-vertical-offset="0" />
+        <state line="50" column="48" selection-start="1037" selection-end="1037" vertical-scroll-proportion="-6.1957674" vertical-offset="5432" max-vertical-offset="6188" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/historiaObstetricia/update.php">
+    <entry file="file://$PROJECT_DIR$/protected/include/SpecialOperations.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="90" selection-start="638" selection-end="638" vertical-scroll-proportion="0.33116883" vertical-offset="0" max-vertical-offset="0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.675926" vertical-offset="1267" max-vertical-offset="2023" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/historiaObstetricia/_historias_obstetricia.php">
+    <entry file="file://$PROJECT_DIR$/protected/include/DataShow.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/historiaGinecologia/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/HistoriaObstetricia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="6" selection-start="641" selection-end="641" vertical-scroll-proportion="0.34478202" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/historiaGinecologia/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="25" selection-start="175" selection-end="175" vertical-scroll-proportion="0.1092545" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/historiaObstetricia/_historias_ginecologias.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/HistoriaGinecologiaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="25" selection-start="3236" selection-end="3236" vertical-scroll-proportion="0.41002572" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/HistoriaObstetriciaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="127" selection-start="893" selection-end="893" vertical-scroll-proportion="0.19151671" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/historiaGinecologia/_historias_ginecologias.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/historiaGinecologia/_historias_obstetricia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/historiaObstetricia/historia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="4" selection-start="442" selection-end="472" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/historiaGinecologia/historia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="34" selection-start="472" selection-end="472" vertical-scroll-proportion="0.3868521" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="47" selection-start="6748" selection-end="6748" vertical-scroll-proportion="0.7225" vertical-offset="1887" max-vertical-offset="3417">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/RecipeController.php">
+    <entry file="file://$PROJECT_DIR$/protected/include/ModelDataParser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="31" selection-start="4447" selection-end="4447" vertical-scroll-proportion="0.24" vertical-offset="2753" max-vertical-offset="4522">
+        <state line="105" column="13" selection-start="2356" selection-end="2356" vertical-scroll-proportion="-25.807692" vertical-offset="1114" max-vertical-offset="1972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Paciente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="224" column="31" selection-start="9231" selection-end="9231" vertical-scroll-proportion="0.618742" vertical-offset="3326" max-vertical-offset="4131">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="77" selection-start="276" selection-end="276" vertical-scroll-proportion="0.083129585" vertical-offset="0" max-vertical-offset="818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/messages/es/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="50" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.80359435" vertical-offset="3" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/DashboardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="50" selection-start="138" selection-end="138" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hebo/views/layouts/tpl_navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="79" selection-start="3804" selection-end="3815" vertical-scroll-proportion="-26.153847" vertical-offset="0" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="25" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hebo/views/layouts/column1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hebo/views/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+          <folding>
+            <marker date="1390151016450" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390151016450" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390151016450" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390151016450" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390151016450" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390151016450" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hebo/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hebo/views/layouts/tpl_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/dashboard/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="42" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.8665339" vertical-offset="194" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>

@@ -1,13 +1,13 @@
 <div class="container">
     <div class="row-fluid">
 
-        <div class="span6">
-            <a href="" class="logo"></a>
+        <div class="span4">
+            <a href="<?php Yii::app()->controller->createUrl('site/index'); ?>" class="logo"></a>
         </div>
         <!--/.span6 -->
 
-        <div class="span6" style="float: right; width: auto; text-align: right;">
-            <section id="navigation-main">
+        <div class="span8">
+            <section id="head-navigation-main">
                 <div class="navbar" style="margin-bottom: 0px;">
                     <div class="navbar-inner" style="border:none;">
                         <div class="container">
@@ -24,6 +24,8 @@
                                     'itemCssClass' => 'item-test',
                                     'encodeLabel' => false,
                                     'items' => array(
+                                        array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest,'linkOptions'=>array("data-description"=>"Area de miembros")),
+                                        array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest,'linkOptions'=>array("data-description"=>"Area de miembros")),
                                         array('label' => 'Estilos <span class="caret"></span>', 'url' => '#', 'itemOptions' => array('class' => 'dropdown', 'tabindex' => "-1"), 'linkOptions' => array('class' => 'dropdown-toggle', 'data-toggle' => "dropdown", "data-description" => "6 estilos para la pagina"),
                                             'items' => array(
                                                 array('label' => '<span class="style" style="background-color:#0088CC;"></span> Estilo 1', 'url' => "javascript:chooseStyle('style1', 60)"),
@@ -33,8 +35,8 @@
                                                 array('label' => '<span class="style" style="background-color:#b88006;"></span> Estilo 5', 'url' => "javascript:chooseStyle('style5', 60)"),
                                                 array('label' => '<span class="style" style="background-color:#f9630f;"></span> Estilo 6', 'url' => "javascript:chooseStyle('style6', 60)"),
                                             )),
-                                        array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest,'linkOptions'=>array("data-description"=>"Area de miembros")),
-                                        array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest,'linkOptions'=>array("data-description"=>"Area de miembros")),
+                                        array('label'=>Yii::t('app','Dashboard'), 'visible'=>$this->id === 'site','url'=>array('/dashboard/index'), 'linkOptions'=>array("data-description"=>Yii::t('app',"Operations grouper"))),
+                                        array('label'=>'Inicio', 'url'=>array('site/index'), 'visible'=>$this->id === 'dashboard','linkOptions'=>array("data-description"=>"Pagina de inicio"),),
                                     ),
                                 )); ?>
                             </div>

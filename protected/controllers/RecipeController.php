@@ -177,7 +177,6 @@ class RecipeController extends Controller
 	}
         
         public function createPDF($id) {
-            $mpdf = Yii::app()->ePdf->mpdf();
             $model=$this->loadModel($id);
          
             $stylesheet = file_get_contents('C:\xampp\htdocs\Gineobs\themes\hebo\css\pdfMain.css');

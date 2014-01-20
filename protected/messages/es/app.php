@@ -41,5 +41,8 @@ return array(
 	'Create Medicina'=>'Crear Medicina',
 	'View Medicina'=>'Ver Medicina',
 	'Delete Medicina'=>'Eliminar Medicina',
+    'Dashboard' => 'Dashboard',
+    'Operations grouper' => 'Agrupador de operaciones',
+    'Select a patient' => 'Seleccione un paciente'
 )
 ?>
