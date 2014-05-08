@@ -14,6 +14,19 @@ class DashboardController extends Controller
         ));
 	}
 
+    public function actionPaciente()
+    {
+        if(isset($_POST['id']))
+        {
+            $paciente = new Paciente();
+            $paciente = $paciente->findByPk($_POST['id']);
+
+            if(!isset($paciente)) {return;}
+
+            $this->renderPartial('/paciente/view',array('model' => $paciente));
+        }
+    }
+
 	// Uncomment the following methods and override them if needed
 	/*
 	public function filters()

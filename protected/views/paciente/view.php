@@ -33,7 +33,7 @@ $this->menu=array(
 		array(
                     'name'=>'edo_civil',
                     'type'=>'raw',
-                    'value'=>$this->getEdoCivil($model->id),
+                    'value'=>$model->getEdoCivil(),
                 ),
 		'fecha_ingreso',
 		'fecha_nacimiento',

@@ -81,7 +81,7 @@
 
 		}
 
-        public static function toHtmlValueTag($modelData,$tag,$valueAttr = null,$optionContentAttr)
+        public static function toHtmlValueTag($modelData,$tag,$valueAttr = null,$optionContentAttr,$emptyTag = true)
         {
             $html = "";
             $arrayCount = count($optionContentAttr) - 1;
@@ -104,6 +104,9 @@
                     $html .= '<'.$tag.' '.$htmlValue.'>'.$htmlContent.'</'.$tag.'>';
                 }
             }
+
+            if($emptyTag)
+                $html = '<'.$tag.'></'.$tag.'>'.$html;
 
             return $html;
         }

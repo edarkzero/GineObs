@@ -144,7 +144,7 @@
                 'connectionString'   => 'mysql:host=localhost;dbname=gineobs',
                 'emulatePrepare'     => false,
                 'username'           => 'root',
-                'password'           => '123456',
+                'password'           => 'zero1010',
                 'charset'            => 'utf8',
                 'enableProfiling'    => true,
                 'enableParamLogging' => true,
