@@ -18,18 +18,33 @@ $countPacientes = count($pacientes) - 1;
     var placeHolderMsj = "<?php echo Yii::t('app','Select a patient'); ?>"
 </script>
 
-<div class="row-fluid">
-    <div class="span12">
-        <select id="paciente-multiselect" name="paciente" class="span12">
-            <?php echo $pacientesSelect2; ?>
-        </select>
+<div id="dashboard-container">
+
+    <div class="row-fluid">
+        <div class="span12">
+            <select id="paciente-multiselect" name="paciente" class="span12">
+                <?php echo $pacientesSelect2; ?>
+            </select>
+        </div>
     </div>
-</div>
 
-<div class="row-fluid">
+    <div class="row-fluid">
 
-    <div class="span12" id="paciente-data">
-        <?php /*foreach ($pacientes as $key => $paciente): */ ?><!--
+        <div class="span12">
+            <div class="span6 text-center animated-item">
+                <a href="<?php echo $this->createUrl('/historiaGinecologia/admin') ?>">Historia Ginecologia</a>
+            </div>
+            <div class="span6 text-center animated-item">
+                <a href="<?php echo $this->createUrl('/historiaObstetricia/admin') ?>">Historia Ginecologia</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row-fluid">
+
+        <div class="span12" id="paciente-data">
+            <?php /*foreach ($pacientes as $key => $paciente): */ ?><!--
             <?php /*if ($ban === 0): */ ?>
                 <div class="row-fluid margin">
             <?php /*endif; */ ?>
@@ -44,11 +59,13 @@ $countPacientes = count($pacientes) - 1;
             </div>
             <?php /*$ban++;
             if ($ban === 3 || ($key == $countPacientes && $ban < 2)): */
-        ?>
+            ?>
                 </div>
                 <?php /*$ban = 0; */ ?>
             <?php /*endif; */ ?>
         --><?php /*endforeach; */ ?>
+        </div>
+
     </div>
 
 </div>
