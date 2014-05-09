@@ -1,32 +1,64 @@
 $(document).ready(function () {
-    $('#paciente-multiselect').select2({
+    select2Control();
+    dashboardControl();
+});
+
+function select2Control()
+{
+    $(s2).select2({
         placeholder: placeHolderMsj,
         allowClear: true
     });
 
-    $('#paciente-multiselect').on("select2-selecting", function (e) {
-        var timerId = 0,
-            originalText = 'Cargando',
-            i  = 0;
+    $(s2).on("select2-selecting", function (e) {
+        $('#changin-data').html('');
+    });
+}
 
-        $("#paciente-data").html(originalText);
+function dashboardControl()
+{
+    $('.dashboard-item').click(function(e){
+        var sel = $(s2).select2('val');
+        
+        if(sel == "" || sel == undefined) {
+            $('#changin-data').html('<span class="text-danger">Debes seleccionar un paciente</span>');
+            $(s2).select2("open");
+            return;
+        }
+        var timerId = loadingText('#changin-data');
 
-        timerId = setInterval(function() {
+        $('.active-animated-item').removeClass('active-animated-item');
+        $(this).addClass('active-animated-item');
 
-            $("#paciente-data").append(".");
-            i++;
-
-            if(i == 4)
-            {
-                $("#paciente-data").html(originalText);
-                i = 0;
-            }
-
-        }, 200);
-
-        $.post('paciente', {id: e.val}, function (data) {
+        $.post('loadData', {id: sel,opt: $(this).attr('data-opt')}, function (data) {
             clearInterval(timerId);
-            $('#paciente-data').html(data);
+            $('#changin-data').html(data);
         });
     });
-});
+}
+
+function loadingText(target)
+{
+    //IMPORTANT Must retrieve the id of the timer and stop it when you want
+
+    var timerId = 0,
+        originalText = 'Cargando',
+        i  = 0;
+
+    $(target).html(originalText);
+
+    timerId = setInterval(function() {
+
+        $(target).append(".");
+        i++;
+
+        if(i == 4)
+        {
+            $(target).html(originalText);
+            i = 0;
+        }
+
+    }, 200);
+
+    return timerId;
+}

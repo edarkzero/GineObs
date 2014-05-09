@@ -178,5 +178,13 @@ class PagoController extends Controller
 			Yii::app()->end();
 		}
 	}
+
+    /**
+     * @return Pago
+     */
+    public function getPrimaryModel()
+    {
+        return new Pago();
+    }
         
 }

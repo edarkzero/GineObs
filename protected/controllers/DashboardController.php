@@ -2,72 +2,72 @@
 
 class DashboardController extends Controller
 {
-	public function actionIndex()
-	{
+    public function actionIndex()
+    {
         $pacientes = Paciente::model()->findAll();
 
-        $pacientesSelect2 = ModelDataParser::toHtmlValueTag($pacientes,'option','id',array('nombre1','apellido1'));
+        $pacientesSelect2 = ModelDataParser::toHtmlValueTag($pacientes, 'option', 'id', array('nombre1', 'apellido1'));
 
-        $this->render('index',array(
+        $this->render('index', array(
             'pacientes' => $pacientes,
             'pacientesSelect2' => $pacientesSelect2
         ));
-	}
+    }
 
-    public function actionPaciente()
+    public function actionLoadData()
     {
-        if(isset($_POST['id']))
-        {
-            $paciente = new Paciente();
-            $paciente = $paciente->findByPk($_POST['id']);
+        if (isset($_POST['id'], $_POST['opt'])) {
+            $pacienteID = $_POST['id'];
+            $modelName = $_POST['opt'];
 
-            if(!isset($paciente)) {return;}
+            try {
+                /**
+                 * @var $model CActiveRecord
+                 */
+                $model = new $modelName('search');
+                $model->unsetAttributes();
+                $modelName === 'Paciente' ? $model->id = $pacienteID : $model->paciente_id = $pacienteID;
 
-            $this->renderPartial('/paciente/view',array('model' => $paciente));
+                if (isset($_GET[$modelName]))
+                    $model->attributes = $_GET[$modelName];
+
+                $this->renderPartial('/' . $modelName . '/_ajaxAdmin', array('model' => $model));
+            } catch (Exception $e) {
+                echo 'Message: ' . $e->getMessage();
+            }
         }
     }
 
-	// Uncomment the following methods and override them if needed
-	/*
-	public function filters()
-	{
-		// return the filter configuration for this controller, e.g.:
-		return array(
-			'inlineFilterName',
-			array(
-				'class'=>'path.to.FilterClass',
-				'propertyName'=>'propertyValue',
-			),
-		);
-	}
+    public function actionPaciente()
+    {
+        if (isset($_POST['id'])) {
+            $paciente = new Paciente();
+            $paciente = $paciente->findByPk($_POST['id']);
 
-	public function actions()
-	{
-		// return external action classes, e.g.:
-		return array(
-			'action1'=>'path.to.ActionClass',
-			'action2'=>array(
-				'class'=>'path.to.AnotherActionClass',
-				'propertyName'=>'propertyValue',
-			),
-		);
-	}
-	*/
+            if (!isset($paciente)) {
+                return;
+            }
 
-    /**
-     * Specifies the access control rules.
-     * This method is used by the 'accessControl' filter.
-     * @return array access control rules
-     */
+            $this->renderPartial('/paciente/view', array('model' => $paciente));
+        }
+    }
+
+    public function filters()
+    {
+        return array(
+            'accessControl',
+        );
+    }
+
     public function accessRules()
     {
         return array(
             array('allow', // allow admin user to perform 'admin' and 'delete' actions
-                'actions'=>array('index'),
-                'users'=>array('admin'),
+                'actions' => array('index', 'loadData'),
+                'users' => array('admin'),
             ),
-            array('deny',  // deny all users
-                'users'=>array('*'),
+            array('deny',
+                'users' => array('*'),
             ),
         );
     }

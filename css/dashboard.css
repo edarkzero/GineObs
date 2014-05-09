@@ -1,6 +1,19 @@
+.text-danger
+{
+    background: #1a8cfb;
+    color: #ffffff;
+    border: 2px dashed #ecb081;
+    width: 100%;
+    padding: 10px 0px;
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 1.3em;
+}
+
 #dashboard-container .row-fluid
 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .choice
@@ -38,6 +51,7 @@
 
 .animated-item {
     position: relative;
+    cursor: pointer;
 
     margin-top: 0px;
     padding: 10px;
@@ -74,10 +88,12 @@
         undefined undefined undefined;
 }
 
-.animated-item:hover {
+.animated-item:hover, .active-animated-item {
     position: relative;
 
     padding: 10px;
+
+    font-size: 1.3em;
 
     border: 1px solid #bfbfbf;
 
@@ -90,4 +106,9 @@
     -ms-transform: translate(0px, -5px);
     -o-transform: translate(0px, -5px);
     transform: translate(0px, -5px);
+}
+
+.active-animated-item
+{
+    border-color: #0088CC;
 }

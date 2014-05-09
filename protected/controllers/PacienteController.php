@@ -214,5 +214,13 @@ class PacienteController extends Controller
         );
         
     }
+
+    /**
+     * @return Paciente
+     */
+    public function getPrimaryModel()
+    {
+        return new Paciente();
+    }
         
 }

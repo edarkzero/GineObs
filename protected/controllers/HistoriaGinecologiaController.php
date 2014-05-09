@@ -260,4 +260,12 @@ class HistoriaGinecologiaController extends Controller
 
     }
 
+    /**
+     * @return HistoriaGinecologia
+     */
+    public function getPrimaryModel()
+    {
+        return new HistoriaGinecologia();
+    }
+
 }

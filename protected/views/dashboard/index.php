@@ -16,6 +16,7 @@ $countPacientes = count($pacientes) - 1;
 
 <script>
     var placeHolderMsj = "<?php echo Yii::t('app','Select a patient'); ?>"
+    var s2 = '#paciente-multiselect';
 </script>
 
 <div id="dashboard-container">
@@ -31,40 +32,25 @@ $countPacientes = count($pacientes) - 1;
     <div class="row-fluid">
 
         <div class="span12">
-            <div class="span6 text-center animated-item">
-                <a href="<?php echo $this->createUrl('/historiaGinecologia/admin') ?>">Historia Ginecologia</a>
-            </div>
-            <div class="span6 text-center animated-item">
-                <a href="<?php echo $this->createUrl('/historiaObstetricia/admin') ?>">Historia Ginecologia</a>
-            </div>
+            <div class="span4 text-center animated-item dashboard-item" href="#" data-opt="HistoriaGinecologia">Historia Ginecologia</div>
+            <div class="span4 text-center animated-item dashboard-item" href="#" data-opt="HistoriaObstetricia">Historia Obstetricia</div>
+            <div class="span4 text-center animated-item dashboard-item" href="#" data-opt="Paciente">Datos de paciente</div>
         </div>
 
     </div>
 
     <div class="row-fluid">
 
-        <div class="span12" id="paciente-data">
-            <?php /*foreach ($pacientes as $key => $paciente): */ ?><!--
-            <?php /*if ($ban === 0): */ ?>
-                <div class="row-fluid margin">
-            <?php /*endif; */ ?>
-            <div class="span4 choice">
-                <a href="<?php /*echo Yii::app()->controller->createUrl('paciente/view', array('id' => $paciente->id)) */ ?>">
-                    <p><?php /*echo $paciente->getNombreCompleto(); */ ?></p>
-
-                    <p><?php /*echo Paciente::GET_EDO_CIVIL($paciente->id); */ ?></p>
-
-                    <p><?php /*echo $paciente->cesarea_descrip; */ ?></p>
-                </a>
-            </div>
-            <?php /*$ban++;
-            if ($ban === 3 || ($key == $countPacientes && $ban < 2)): */
-            ?>
-                </div>
-                <?php /*$ban = 0; */ ?>
-            <?php /*endif; */ ?>
-        --><?php /*endforeach; */ ?>
+        <div class="span12">
+            <div class="span6 text-center animated-item dashboard-item" href="#" data-opt="Recipe">Recipes</div>
+            <div class="span6 text-center animated-item dashboard-item" href="#" data-opt="Pago">Pagos</div>
         </div>
+
+    </div>
+
+    <div class="row-fluid">
+
+        <div class="span12" id="changin-data"></div>
 
     </div>
 

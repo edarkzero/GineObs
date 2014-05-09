@@ -318,9 +318,7 @@ div.fc-event-content
 
 .grid-view .filters input, .grid-view .filters select
 {
-    width: 94%!important;
-    max-width: 800px!important;
-    min-width: inherit!important;
+    width: 88%!important;
 }
 
 .grid-view .summary
