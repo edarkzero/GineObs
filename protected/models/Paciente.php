@@ -251,4 +251,30 @@ class Paciente extends CActiveRecord
 
     }
 
+    public static function cargarMenuMenarquia()
+    {
+        return array(
+            '0' => '0',
+            'I' => 'I - 1',
+            'II' => 'II - 2',
+            'III' => 'III - 3',
+            'IV' => 'IV - 4',
+            'V' => 'V  - 5',
+            'VI' => 'VI  - 6',
+            'VII' => 'VII  - 7',
+            'VIII' => 'VIII  - 8',
+            'IX' => 'IX  - 9',
+            'X' => 'X  - 10',
+            'XI' => 'XI  - 11',
+            'XII' => 'XII - 12',
+            'XIII' => 'XIII - 13',
+            'XIV' => 'XIV - 14',
+            'XV' => 'XV - 15',
+            'XVI' => 'XVI - 16',
+            'XVII' => 'XVII - 17',
+            'XVIII' => 'XVIII - 18',
+        );
+
+    }
+
 }

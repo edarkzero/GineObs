@@ -6,7 +6,18 @@ class DashboardController extends Controller
     {
         $pacientes = Paciente::model()->findAll();
 
-        $pacientesSelect2 = ModelDataParser::toHtmlValueTag($pacientes, 'option', 'id', array('nombre1', 'apellido1'));
+        $pacientesSelect2 = array();
+        $pacientesSelect2['html'] = ModelDataParser::toHtmlValueTag($pacientes, 'option', 'id', array('nombre1', 'apellido1'),true);
+
+        if(isset($_GET['id']))
+        {
+            $model = Paciente::model()->findByPk($_GET['id']);
+
+            if(isset($model))
+                $pacientesSelect2['selected'] = $model->id;
+            else
+                $pacientesSelect2['selected'] = '-1';
+        }
 
         $this->render('index', array(
             'pacientes' => $pacientes,
@@ -20,21 +31,55 @@ class DashboardController extends Controller
             $pacienteID = $_POST['id'];
             $modelName = $_POST['opt'];
 
-            try {
-                /**
-                 * @var $model CActiveRecord
-                 */
-                $model = new $modelName('search');
+            $this->loadModelPartial($modelName,$pacienteID);
+        }
+    }
+
+    public function getNeededPartial()
+    {
+        if (isset($_GET['id'], $_GET['opt'])) {
+            $pacienteID = $_GET['id'];
+            $modelName = $_GET['opt'];
+
+            $this->loadModelPartial($modelName,$pacienteID,false);
+        }
+    }
+
+    private function loadModelPartial($modelName,$pacienteID,$ajax = true)
+    {
+        try {
+            /**
+             * @var $model CActiveRecord
+             */
+            $model = new $modelName('search');
+
+            if($modelName !== 'Paciente')
+            {
                 $model->unsetAttributes();
-                $modelName === 'Paciente' ? $model->id = $pacienteID : $model->paciente_id = $pacienteID;
-
-                if (isset($_GET[$modelName]))
-                    $model->attributes = $_GET[$modelName];
-
-                $this->renderPartial('/' . $modelName . '/_ajaxAdmin', array('model' => $model));
-            } catch (Exception $e) {
-                echo 'Message: ' . $e->getMessage();
+                $model->paciente_id = $pacienteID;
             }
+
+            if (isset($_GET[$modelName]))
+                $model->attributes = $_GET[$modelName];
+
+            if($modelName !== 'Paciente')
+            {
+                if(!$ajax)
+                    return $this->renderPartial('/' . $modelName . '/_ajaxAdmin', array('model' => $model),$ajax);
+                else
+                    $this->renderPartial('/' . $modelName . '/_form', array('model' => $model,$ajax));
+            }
+            else
+            {
+                $model = $model->findByPk($pacienteID);
+
+                if(!$ajax)
+                    return $this->renderPartial('/' . $modelName . '/_form', array('model' => $model,'ajax' => true),$ajax);
+                else
+                    $this->renderPartial('/' . $modelName . '/_form', array('model' => $model,'ajax' => true),$ajax);
+            }
+        } catch (Exception $e) {
+            echo 'Message: ' . $e->getMessage();
         }
     }
 

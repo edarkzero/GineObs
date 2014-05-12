@@ -2,6 +2,9 @@
 /* @var $this HistoriaGinecologiaController */
 /* @var $modelGineco HistoriaGinecologia */
 /* @var $form CActiveForm */
+
+if(!isset($modelGineco) && isset($model))
+    $modelGineco = $model;
 ?>
 
 <div class="form">

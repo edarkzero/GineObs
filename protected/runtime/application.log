@@ -5420,3 +5420,1503 @@ Stack trace:
 REQUEST_URI=/gineobs/dashboard/img/close.png
 HTTP_REFERER=http://localhost/gineobs/dashboard/index
 ---
+2014/05/09 22:02:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/loading.gif"' in C:\inetpub\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('img/loading.gif')
+#1 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gineobs/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/
+---
+2014/05/09 22:02:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/close.png"' in C:\inetpub\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('img/close.png')
+#1 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gineobs/img/close.png
+HTTP_REFERER=http://localhost/gineobs/
+---
+2014/05/09 22:06:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/09 22:06:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/09 22:59:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/09 22:59:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/09 23:09:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/09 23:09:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/09 23:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/09 23:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/09 23:12:35 [error] [php] Undefined variable: renderPartial (C:\inetpub\wwwroot\gineobs\protected\views\paciente\_form.php:33)
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#1 C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php(43): DashboardController->renderPartial()
+#2 C:\inetpub\wwwroot\framework\web\actions\CInlineAction.php(49): DashboardController->actionLoadData()
+#3 C:\inetpub\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\inetpub\wwwroot\framework\web\filters\CFilterChain.php(133): DashboardController->runAction()
+#5 C:\inetpub\wwwroot\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\inetpub\wwwroot\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\inetpub\wwwroot\framework\web\filters\CInlineFilter.php(58): DashboardController->filterAccessControl()
+#8 C:\inetpub\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\inetpub\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\inetpub\wwwroot\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#11 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): DashboardController->run()
+#12 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\inetpub\wwwroot\gineobs\index.php(13): CWebApplication->run()
+REQUEST_URI=/gineobs/dashboard/loadData
+in C:\inetpub\wwwroot\gineobs\protected\views\paciente\_form.php (33)
+in C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php (43)
+in C:\inetpub\wwwroot\gineobs\index.php (13)
+2014/05/09 23:12:44 [error] [php] Undefined variable: renderPartial (C:\inetpub\wwwroot\gineobs\protected\views\paciente\_form.php:33)
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#1 C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php(43): DashboardController->renderPartial()
+#2 C:\inetpub\wwwroot\framework\web\actions\CInlineAction.php(49): DashboardController->actionLoadData()
+#3 C:\inetpub\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\inetpub\wwwroot\framework\web\filters\CFilterChain.php(133): DashboardController->runAction()
+#5 C:\inetpub\wwwroot\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\inetpub\wwwroot\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\inetpub\wwwroot\framework\web\filters\CInlineFilter.php(58): DashboardController->filterAccessControl()
+#8 C:\inetpub\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\inetpub\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\inetpub\wwwroot\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#11 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): DashboardController->run()
+#12 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\inetpub\wwwroot\gineobs\index.php(13): CWebApplication->run()
+REQUEST_URI=/gineobs/dashboard/loadData
+in C:\inetpub\wwwroot\gineobs\protected\views\paciente\_form.php (33)
+in C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php (43)
+in C:\inetpub\wwwroot\gineobs\index.php (13)
+2014/05/09 23:13:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/09 23:13:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/09 23:15:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/09 23:15:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/09 23:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/09 23:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/10 07:55:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/10 07:55:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/10 10:58:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/10 10:58:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/11 09:48:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/loading.gif"' in C:\inetpub\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('img/loading.gif')
+#1 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gineobs/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/
+---
+2014/05/11 09:48:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/close.png"' in C:\inetpub\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('img/close.png')
+#1 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gineobs/img/close.png
+HTTP_REFERER=http://localhost/gineobs/
+---
+2014/05/11 09:48:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/11 09:48:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/11 10:16:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/11 10:16:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/11 10:17:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/11 10:17:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/11 10:17:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?paciente=44444444&opt=HistoriaGinecologia
+---
+2014/05/11 10:17:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?paciente=44444444&opt=HistoriaGinecologia
+---
+2014/05/11 10:22:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaGinecologia
+---
+2014/05/11 10:22:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaGinecologia
+---
+2014/05/11 10:23:45 [error] [php] Undefined variable: ajax (C:\inetpub\wwwroot\gineobs\protected\views\paciente\_form.php:11)
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#1 C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php(66): DashboardController->renderPartial()
+#2 C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php(33): DashboardController->loadModelPartial()
+#3 C:\inetpub\wwwroot\gineobs\protected\views\dashboard\index.php(63): DashboardController->getNeededPartial()
+#4 C:\inetpub\wwwroot\framework\web\CBaseController.php(126): require()
+#5 C:\inetpub\wwwroot\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#6 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#7 C:\inetpub\wwwroot\framework\web\CController.php(782): DashboardController->renderPartial()
+#8 C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php(14): DashboardController->render()
+#9 C:\inetpub\wwwroot\framework\web\actions\CInlineAction.php(49): DashboardController->actionIndex()
+#10 C:\inetpub\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\inetpub\wwwroot\framework\web\filters\CFilterChain.php(133): DashboardController->runAction()
+#12 C:\inetpub\wwwroot\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\inetpub\wwwroot\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 C:\inetpub\wwwroot\framework\web\filters\CInlineFilter.php(58): DashboardController->filterAccessControl()
+#15 C:\inetpub\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 C:\inetpub\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\inetpub\wwwroot\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#18 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): DashboardController->run()
+#19 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\inetpub\wwwroot\gineobs\index.php(13): CWebApplication->run()
+REQUEST_URI=/gineobs/dashboard/index?id=44444444&opt=Paciente
+in C:\inetpub\wwwroot\gineobs\protected\views\paciente\_form.php (11)
+in C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php (66)
+in C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php (33)
+2014/05/11 10:24:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Paciente
+---
+2014/05/11 10:24:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Paciente
+---
+2014/05/11 10:35:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaGinecologia
+---
+2014/05/11 10:35:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaGinecologia
+---
+2014/05/11 10:36:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Recipe
+---
+2014/05/11 10:36:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Recipe
+---
+2014/05/11 10:41:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaGinecologia
+---
+2014/05/11 10:41:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaGinecologia
+---
+2014/05/11 10:41:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaObstetricia
+---
+2014/05/11 10:41:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaObstetricia
+---
+2014/05/11 10:41:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('HistoriaObstetr...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/HistoriaObstetricia/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/HistoriaObstetricia/create
+---
+2014/05/11 10:41:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('HistoriaObstetr...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/HistoriaObstetricia/img/close.png
+HTTP_REFERER=http://localhost/gineobs/HistoriaObstetricia/create
+---
+2014/05/11 10:41:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaObstetricia
+---
+2014/05/11 10:41:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaObstetricia
+---
+2014/05/11 10:41:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Paciente
+---
+2014/05/11 10:41:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Paciente
+---
+2014/05/11 19:34:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Paciente
+---
+2014/05/11 19:34:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Paciente
+---
+2014/05/11 20:35:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/close.png"' in C:\inetpub\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('img/close.png')
+#1 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gineobs/img/close.png
+HTTP_REFERER=http://localhost/gineobs/
+---
+2014/05/11 20:35:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/loading.gif"' in C:\inetpub\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('img/loading.gif')
+#1 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gineobs/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/
+---
+2014/05/11 21:11:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/11 21:11:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index
+---
+2014/05/11 21:11:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaGinecologia
+---
+2014/05/11 21:11:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaGinecologia
+---
+2014/05/11 21:14:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaObstetricia
+---
+2014/05/11 21:14:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaObstetricia
+---
+2014/05/11 21:14:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 21:14:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 21:18:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=Paciente
+---
+2014/05/11 21:18:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=Paciente
+---
+2014/05/11 21:18:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Paciente
+---
+2014/05/11 21:18:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Paciente
+---
+2014/05/11 21:28:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Paciente
+---
+2014/05/11 21:28:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Paciente
+---
+2014/05/11 21:28:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Paciente
+---
+2014/05/11 21:28:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Paciente
+---
+2014/05/11 21:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaObstetricia
+---
+2014/05/11 21:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaObstetricia
+---
+2014/05/11 21:28:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaGinecologia
+---
+2014/05/11 21:28:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaGinecologia
+---
+2014/05/11 21:28:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaObstetricia
+---
+2014/05/11 21:28:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaObstetricia
+---
+2014/05/11 21:29:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Paciente
+---
+2014/05/11 21:29:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Paciente
+---
+2014/05/11 21:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaObstetricia
+---
+2014/05/11 21:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaObstetricia
+---
+2014/05/11 21:31:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Pago
+---
+2014/05/11 21:31:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Pago
+---
+2014/05/11 21:31:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Recipe
+---
+2014/05/11 21:31:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Recipe
+---
+2014/05/11 21:31:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Paciente
+---
+2014/05/11 21:31:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=Paciente
+---
+2014/05/11 21:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaObstetricia
+---
+2014/05/11 21:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaObstetricia
+---
+2014/05/11 21:32:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaGinecologia
+---
+2014/05/11 21:32:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=44444444&opt=HistoriaGinecologia
+---
+2014/05/11 21:32:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=222&opt=HistoriaGinecologia
+---
+2014/05/11 21:32:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=222&opt=HistoriaGinecologia
+---
+2014/05/11 21:36:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaObstetricia
+---
+2014/05/11 21:36:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaObstetricia
+---
+2014/05/11 21:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 21:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 21:58:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 21:58:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 21:58:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 21:58:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 21:58:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 21:58:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 21:59:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 21:59:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 21:59:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 21:59:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 22:00:27 [error] [php] Undefined variable: modelGineco (C:\inetpub\wwwroot\gineobs\protected\views\historiaGinecologia\_form.php:16)
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#1 C:\inetpub\wwwroot\gineobs\protected\views\dashboard\hasData.php(6): DashboardController->renderPartial()
+#2 C:\inetpub\wwwroot\framework\web\CBaseController.php(126): require()
+#3 C:\inetpub\wwwroot\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#4 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#5 C:\inetpub\wwwroot\gineobs\protected\views\historiaGinecologia\_ajaxAdmin.php(33): DashboardController->renderPartial()
+#6 C:\inetpub\wwwroot\framework\web\CBaseController.php(126): require()
+#7 C:\inetpub\wwwroot\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#8 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#9 C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php(68): DashboardController->renderPartial()
+#10 C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php(44): DashboardController->loadModelPartial()
+#11 C:\inetpub\wwwroot\gineobs\protected\views\dashboard\index.php(64): DashboardController->getNeededPartial()
+#12 C:\inetpub\wwwroot\framework\web\CBaseController.php(126): require()
+#13 C:\inetpub\wwwroot\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#14 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#15 C:\inetpub\wwwroot\framework\web\CController.php(782): DashboardController->renderPartial()
+#16 C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php(25): DashboardController->render()
+#17 C:\inetpub\wwwroot\framework\web\actions\CInlineAction.php(49): DashboardController->actionIndex()
+#18 C:\inetpub\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 C:\inetpub\wwwroot\framework\web\filters\CFilterChain.php(133): DashboardController->runAction()
+#20 C:\inetpub\wwwroot\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\inetpub\wwwroot\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#22 C:\inetpub\wwwroot\framework\web\filters\CInlineFilter.php(58): DashboardController->filterAccessControl()
+#23 C:\inetpub\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#24 C:\inetpub\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\inetpub\wwwroot\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#26 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): DashboardController->run()
+#27 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#28 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\inetpub\wwwroot\gineobs\index.php(13): CWebApplication->run()
+REQUEST_URI=/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+in C:\inetpub\wwwroot\gineobs\protected\views\historiaGinecologia\_form.php (16)
+in C:\inetpub\wwwroot\gineobs\protected\views\dashboard\hasData.php (6)
+in C:\inetpub\wwwroot\gineobs\protected\views\historiaGinecologia\_ajaxAdmin.php (33)
+2014/05/11 22:00:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaObstetricia
+---
+2014/05/11 22:00:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaObstetricia
+---
+2014/05/11 22:00:50 [error] [php] Undefined variable: modelGineco (C:\inetpub\wwwroot\gineobs\protected\views\historiaGinecologia\_form.php:16)
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#1 C:\inetpub\wwwroot\gineobs\protected\views\dashboard\hasData.php(6): DashboardController->renderPartial()
+#2 C:\inetpub\wwwroot\framework\web\CBaseController.php(126): require()
+#3 C:\inetpub\wwwroot\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#4 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#5 C:\inetpub\wwwroot\gineobs\protected\views\historiaGinecologia\_ajaxAdmin.php(33): DashboardController->renderPartial()
+#6 C:\inetpub\wwwroot\framework\web\CBaseController.php(126): require()
+#7 C:\inetpub\wwwroot\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#8 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#9 C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php(68): DashboardController->renderPartial()
+#10 C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php(44): DashboardController->loadModelPartial()
+#11 C:\inetpub\wwwroot\gineobs\protected\views\dashboard\index.php(64): DashboardController->getNeededPartial()
+#12 C:\inetpub\wwwroot\framework\web\CBaseController.php(126): require()
+#13 C:\inetpub\wwwroot\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#14 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#15 C:\inetpub\wwwroot\framework\web\CController.php(782): DashboardController->renderPartial()
+#16 C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php(25): DashboardController->render()
+#17 C:\inetpub\wwwroot\framework\web\actions\CInlineAction.php(49): DashboardController->actionIndex()
+#18 C:\inetpub\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 C:\inetpub\wwwroot\framework\web\filters\CFilterChain.php(133): DashboardController->runAction()
+#20 C:\inetpub\wwwroot\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\inetpub\wwwroot\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#22 C:\inetpub\wwwroot\framework\web\filters\CInlineFilter.php(58): DashboardController->filterAccessControl()
+#23 C:\inetpub\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#24 C:\inetpub\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\inetpub\wwwroot\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#26 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): DashboardController->run()
+#27 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#28 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\inetpub\wwwroot\gineobs\index.php(13): CWebApplication->run()
+REQUEST_URI=/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+in C:\inetpub\wwwroot\gineobs\protected\views\historiaGinecologia\_form.php (16)
+in C:\inetpub\wwwroot\gineobs\protected\views\dashboard\hasData.php (6)
+in C:\inetpub\wwwroot\gineobs\protected\views\historiaGinecologia\_ajaxAdmin.php (33)
+2014/05/11 22:00:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaObstetricia
+---
+2014/05/11 22:00:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaObstetricia
+---
+2014/05/11 22:00:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=Paciente
+---
+2014/05/11 22:00:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=Paciente
+---
+2014/05/11 22:00:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=Recipe
+---
+2014/05/11 22:00:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=Recipe
+---
+2014/05/11 22:01:02 [error] [php] Undefined variable: modelGineco (C:\inetpub\wwwroot\gineobs\protected\views\historiaGinecologia\_form.php:16)
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#1 C:\inetpub\wwwroot\gineobs\protected\views\dashboard\hasData.php(6): DashboardController->renderPartial()
+#2 C:\inetpub\wwwroot\framework\web\CBaseController.php(126): require()
+#3 C:\inetpub\wwwroot\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#4 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#5 C:\inetpub\wwwroot\gineobs\protected\views\historiaGinecologia\_ajaxAdmin.php(33): DashboardController->renderPartial()
+#6 C:\inetpub\wwwroot\framework\web\CBaseController.php(126): require()
+#7 C:\inetpub\wwwroot\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#8 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#9 C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php(68): DashboardController->renderPartial()
+#10 C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php(44): DashboardController->loadModelPartial()
+#11 C:\inetpub\wwwroot\gineobs\protected\views\dashboard\index.php(64): DashboardController->getNeededPartial()
+#12 C:\inetpub\wwwroot\framework\web\CBaseController.php(126): require()
+#13 C:\inetpub\wwwroot\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#14 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#15 C:\inetpub\wwwroot\framework\web\CController.php(782): DashboardController->renderPartial()
+#16 C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php(25): DashboardController->render()
+#17 C:\inetpub\wwwroot\framework\web\actions\CInlineAction.php(49): DashboardController->actionIndex()
+#18 C:\inetpub\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 C:\inetpub\wwwroot\framework\web\filters\CFilterChain.php(133): DashboardController->runAction()
+#20 C:\inetpub\wwwroot\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\inetpub\wwwroot\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#22 C:\inetpub\wwwroot\framework\web\filters\CInlineFilter.php(58): DashboardController->filterAccessControl()
+#23 C:\inetpub\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#24 C:\inetpub\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\inetpub\wwwroot\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#26 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): DashboardController->run()
+#27 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#28 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\inetpub\wwwroot\gineobs\index.php(13): CWebApplication->run()
+REQUEST_URI=/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+in C:\inetpub\wwwroot\gineobs\protected\views\historiaGinecologia\_form.php (16)
+in C:\inetpub\wwwroot\gineobs\protected\views\dashboard\hasData.php (6)
+in C:\inetpub\wwwroot\gineobs\protected\views\historiaGinecologia\_ajaxAdmin.php (33)
+2014/05/11 22:02:28 [error] [php] Undefined variable: modelGineco (C:\inetpub\wwwroot\gineobs\protected\views\historiaGinecologia\_form.php:16)
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#1 C:\inetpub\wwwroot\gineobs\protected\views\dashboard\hasData.php(6): DashboardController->renderPartial()
+#2 C:\inetpub\wwwroot\framework\web\CBaseController.php(126): require()
+#3 C:\inetpub\wwwroot\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#4 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#5 C:\inetpub\wwwroot\gineobs\protected\views\historiaGinecologia\_ajaxAdmin.php(33): DashboardController->renderPartial()
+#6 C:\inetpub\wwwroot\framework\web\CBaseController.php(126): require()
+#7 C:\inetpub\wwwroot\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#8 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#9 C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php(68): DashboardController->renderPartial()
+#10 C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php(44): DashboardController->loadModelPartial()
+#11 C:\inetpub\wwwroot\gineobs\protected\views\dashboard\index.php(64): DashboardController->getNeededPartial()
+#12 C:\inetpub\wwwroot\framework\web\CBaseController.php(126): require()
+#13 C:\inetpub\wwwroot\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#14 C:\inetpub\wwwroot\framework\web\CController.php(869): DashboardController->renderFile()
+#15 C:\inetpub\wwwroot\framework\web\CController.php(782): DashboardController->renderPartial()
+#16 C:\inetpub\wwwroot\gineobs\protected\controllers\DashboardController.php(25): DashboardController->render()
+#17 C:\inetpub\wwwroot\framework\web\actions\CInlineAction.php(49): DashboardController->actionIndex()
+#18 C:\inetpub\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 C:\inetpub\wwwroot\framework\web\filters\CFilterChain.php(133): DashboardController->runAction()
+#20 C:\inetpub\wwwroot\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\inetpub\wwwroot\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#22 C:\inetpub\wwwroot\framework\web\filters\CInlineFilter.php(58): DashboardController->filterAccessControl()
+#23 C:\inetpub\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#24 C:\inetpub\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\inetpub\wwwroot\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#26 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): DashboardController->run()
+#27 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#28 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\inetpub\wwwroot\gineobs\index.php(13): CWebApplication->run()
+REQUEST_URI=/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+in C:\inetpub\wwwroot\gineobs\protected\views\historiaGinecologia\_form.php (16)
+in C:\inetpub\wwwroot\gineobs\protected\views\dashboard\hasData.php (6)
+in C:\inetpub\wwwroot\gineobs\protected\views\historiaGinecologia\_ajaxAdmin.php (33)
+2014/05/11 22:03:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 22:03:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 22:24:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 22:24:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 22:24:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/l...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/loading.gif
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---
+2014/05/11 22:24:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\inetpub\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\inetpub\wwwroot\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\inetpub\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/img/c...')
+#3 C:\inetpub\wwwroot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\gineobs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gineobs/dashboard/img/close.png
+HTTP_REFERER=http://localhost/gineobs/dashboard/index?id=18126354&opt=HistoriaGinecologia
+---

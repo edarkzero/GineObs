@@ -2,10 +2,15 @@
 /* @var $this PacienteController */
 /* @var $model Paciente */
 /* @var $form CActiveForm */
+/* @var $ajax bool */
 
 $cs = Yii::app()->getClientScript();
 $cs->registerCssFile(Yii::app()->baseUrl.'/themes/hebo/css/tabForm.css?v=1');
 
+if($ajax)
+    $renderPartialPath = '/Paciente/';
+else
+    $renderPartialPath = '';
 ?>
 
 <div class="form">
@@ -25,8 +30,8 @@ $cs->registerCssFile(Yii::app()->baseUrl.'/themes/hebo/css/tabForm.css?v=1');
         'id' => 'tab-form',
         'type'=>'tabs', // 'tabs' or 'pills'
         'tabs'=>array(
-            array('label'=>'Datos Personales', 'content'=>$this->renderPartial('_formPersonalData',array('form' => $form,'model' => $model),true),'active'=>true,'htmlOptions'=>array('class'=>'tabForm')),
-            array('label'=>'Datos de Analisis', 'content'=>$this->renderPartial('_formAnalisisData',array('form' => $form,'model' => $model),true),'htmlOptions'=>array('class'=>'tabForm')),
+            array('label'=>'Datos Personales', 'content'=>$this->renderPartial($renderPartialPath.'_formPersonalData',array('form' => $form,'model' => $model),true),'active'=>true,'htmlOptions'=>array('class'=>'tabForm')),
+            array('label'=>'Datos de Analisis', 'content'=>$this->renderPartial($renderPartialPath.'_formAnalisisData',array('form' => $form,'model' => $model),true),'htmlOptions'=>array('class'=>'tabForm')),
         ),
     )); ?>
 

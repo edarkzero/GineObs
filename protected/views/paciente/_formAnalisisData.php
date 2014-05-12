@@ -40,7 +40,7 @@
     <?php echo $form->dropDownList(
         $model,
         'gesta',
-        $this->cargarMenuMenarquia(),
+        Paciente::cargarMenuMenarquia(),
         array('empty' => 'Seleccione numero'));
     ?>
     <?php echo $form->error($model, 'gesta'); ?>
@@ -51,7 +51,7 @@
     <?php echo $form->dropDownList(
         $model,
         'para',
-        $this->cargarMenuMenarquia(),
+        Paciente::cargarMenuMenarquia(),
         array('empty' => 'Seleccione numero'));
     ?>
     <?php echo $form->error($model, 'para'); ?>
@@ -62,7 +62,7 @@
     <?php echo $form->dropDownList(
         $model,
         'aborto',
-        $this->cargarMenuMenarquia(),
+        Paciente::cargarMenuMenarquia(),
         array('empty' => 'Seleccione numero'));
     ?>
     <?php echo $form->error($model, 'aborto'); ?>
@@ -73,7 +73,7 @@
     <?php echo $form->dropDownList(
         $model,
         'cesarea',
-        $this->cargarMenuMenarquia(),
+        Paciente::cargarMenuMenarquia(),
         array('empty' => 'Seleccione numero'));
     ?>
     <?php echo $form->error($model, 'cesarea'); ?>

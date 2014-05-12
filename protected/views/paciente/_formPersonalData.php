@@ -122,3 +122,7 @@
     ?>
     <?php echo $form->error($model,'fecha_nacimiento'); ?>
 </div>
+
+<div class="row buttons">
+    <?php echo CHtml::submitButton($model->isNewRecord ? 'Crear' : 'Guardar'); ?>
+</div>

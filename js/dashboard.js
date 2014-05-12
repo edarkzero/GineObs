@@ -13,6 +13,9 @@ function select2Control()
     $(s2).on("select2-selecting", function (e) {
         $('#changin-data').html('');
     });
+
+    if(preSel != undefined && preSel != '-1')
+        $(s2).select2('val',preSel);
 }
 
 function dashboardControl()
@@ -30,10 +33,15 @@ function dashboardControl()
         $('.active-animated-item').removeClass('active-animated-item');
         $(this).addClass('active-animated-item');
 
-        $.post('loadData', {id: sel,opt: $(this).attr('data-opt')}, function (data) {
+        //Descomentar para usar por GET
+        $('#opt').val($(this).attr('data-opt'));
+        $('#dashboard-form').submit();
+
+        //Descomentar para usar por AJAX POST
+        /*$.post('loadData', {id: sel,opt: $(this).attr('data-opt')}, function (data) {
             clearInterval(timerId);
             $('#changin-data').html(data);
-        });
+        });*/
     });
 }
 
