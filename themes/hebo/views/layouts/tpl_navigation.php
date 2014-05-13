@@ -16,7 +16,7 @@
                         'encodeLabel'        => false,
                         'items'              => array(
                             array('label' => 'Inicio', 'url' => array('site/index'), 'visible' => $this->id === 'site', 'linkOptions' => array("data-description" => "Pagina de inicio"),),
-                            array('label' => Yii::t('app', 'Dashboard'), 'visible' => $this->id === 'dashboard', 'url' => array('/dashboard/index'), 'linkOptions' => array("data-description" => Yii::t('app', "Operations grouper"))),
+                            //array('label' => Yii::t('app', 'Dashboard'), 'visible' => $this->id === 'dashboard', 'url' => array('/dashboard/index'), 'linkOptions' => array("data-description" => Yii::t('app', "Operations grouper"))),
 
                             /*array('label'=>'Home <span class="caret"></span>', 'url'=>array('/site/index'),'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"our home page"),
                                             'items'=>array(

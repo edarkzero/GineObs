@@ -93,7 +93,7 @@
             'attribute' => 'fue',
             'language' => 'es',
             'options' => array(
-                'dateFormat' => 'dd-mm-yy',
+                'dateFormat' => DateTools::LONG_DATE_FORMAT_JS,
                 'constrainInput' => 'false',
                 'duration' => 'fast',
                 'showAnim' => 'slide',

@@ -2,15 +2,24 @@
 /* @var $this HistoriaGinecologiaController */
 /* @var $modelGineco HistoriaGinecologia */
 /* @var $form CActiveForm */
+/* @var $dashboard bool */
 
 if(!isset($modelGineco) && isset($model))
     $modelGineco = $model;
+
+$submitLabel = $modelGineco->isNewRecord ? 'Create' : 'Save';
+
+if(isset($dashboard) && $dashboard)
+    $formAction = $this->createUrl('/HistoriaGinecologia/'.strtolower($submitLabel));
+else
+    $formAction = null;
 ?>
 
 <div class="form">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'historia-ginecologia-form',
+    'action' => $formAction,
 	'enableAjaxValidation'=>true,
 )); ?>
 
@@ -87,7 +96,7 @@ if(!isset($modelGineco) && isset($model))
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($modelGineco->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($submitLabel); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

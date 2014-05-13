@@ -36,6 +36,9 @@
  */
 class Paciente extends CActiveRecord
 {
+    public $fecha_nacimiento_bdd;
+    public $fecha_ingreso_bdd;
+    public $fue_bdd;
 
     public function behaviors()
     {

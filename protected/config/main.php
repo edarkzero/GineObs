@@ -27,14 +27,6 @@
         ),
 
         'modules'        => array(
-
-//		'gii'=>array(
-//			'class'=>'system.gii.GiiModule',
-//			'password'=>'zero1010',
-//			// If removed, Gii defaults to localhost only. Edit carefully to taste.
-//			'ipFilters'=>array('127.0.0.1','::1'),
-//		),
-
             'gii' => array(
                 'class'          => 'system.gii.GiiModule',
                 'password'       => 'zero1010',
@@ -42,8 +34,8 @@
                     'ext.gtc', // Gii Template Collection
                     'bootstrap.gii'
                 ),
+                'ipFilters'=>array('127.0.0.1','::1'),
             ),
-
         ),
 
         // application components
@@ -141,7 +133,7 @@
             ),
 
             'db'            => array(
-                'connectionString'   => 'mysql:host=localhost;dbname=gineobs',
+                'connectionString'   => 'mysql:host=127.0.0.1;dbname=gineobs',
                 'emulatePrepare'     => false,
                 'username'           => 'root',
                 'password'           => 'zero1010',
@@ -192,6 +184,6 @@
         'params'         => array(
             // this is used in contact page
             'adminEmail' => 'edgarcardona87@gmail.com',
-            'slogan'     => 'G. Soto & E. Cardona',
+            'slogan'     => 'Edgar O. Cardona H.',
         ),
     );

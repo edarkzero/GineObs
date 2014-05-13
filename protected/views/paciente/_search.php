@@ -107,7 +107,7 @@
 		<?php echo $form->dropDownList(
                         $model,
                         'menarquia',
-                        $this->cargarMenuMenarquia(),
+                        $model->cargarMenuMenarquia(),
                         array('empty'=>'Seleccione numero')); 
                 ?>	
 </div>

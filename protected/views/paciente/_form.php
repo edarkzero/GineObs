@@ -7,7 +7,7 @@
 $cs = Yii::app()->getClientScript();
 $cs->registerCssFile(Yii::app()->baseUrl.'/themes/hebo/css/tabForm.css?v=1');
 
-if($ajax)
+if(isset($ajax) && $ajax)
     $renderPartialPath = '/Paciente/';
 else
     $renderPartialPath = '';

@@ -107,10 +107,10 @@ class DashboardController extends Controller
     public function accessRules()
     {
         return array(
-            array('allow', // allow admin user to perform 'admin' and 'delete' actions
+            /*array('allow', // allow admin user to perform 'admin' and 'delete' actions
                 'actions' => array('index', 'loadData'),
                 'users' => array('admin'),
-            ),
+            ),*/
             array('deny',
                 'users' => array('*'),
             ),

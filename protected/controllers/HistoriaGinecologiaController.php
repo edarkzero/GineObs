@@ -151,12 +151,16 @@ class HistoriaGinecologiaController extends Controller
 
         if (isset($_POST['HistoriaGinecologia'])) {
             $modelGineco->attributes = $_POST['HistoriaGinecologia'];
+            $modelGineco->diagnostico = $_POST['HistoriaGinecologia']['diagnostico'];
+            $modelGineco->tratamiento = $_POST['HistoriaGinecologia']['tratamiento'];
 
             if ($modelGineco->save()) {
                 $modelGineco->saveMtM($modelGineco->relData, $modelGineco->id, $modelGineco->ginecologiaEnfermedads);
 
                 $this->redirect(array('view', 'id' => $modelGineco->id));
             }
+
+            //$this->redirect(array('/dashboard/index','id' => $modelGineco->paciente_id,'opt' => $this->id),true);
         }
 
         $this->render('create', array(
@@ -195,8 +199,11 @@ class HistoriaGinecologiaController extends Controller
 
             if ($modelGineco->save()) {
                 $modelGineco->updateMtM($modelGineco->relData, $modelGineco->id, $modelGineco->ginecologiaEnfermedads, $ginecologiaEnfermedadsOLD);
+
                 $this->redirect(array('view', 'id' => $modelGineco->id));
             }
+
+            //$this->redirect(array('/dashboard/index','id' => $modelGineco->paciente_id,'opt' => $this->id),true);
 
         }
 
