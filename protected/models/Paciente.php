@@ -39,6 +39,9 @@ class Paciente extends CActiveRecord
     public $fecha_nacimiento_bdd;
     public $fecha_ingreso_bdd;
     public $fue_bdd;
+    public $fecha_nacimiento_alt;
+    public $fecha_ingreso_alt;
+    public $fue_alt;
 
     public function behaviors()
     {
@@ -106,7 +109,7 @@ class Paciente extends CActiveRecord
             array('tipo_regla', 'length', 'max' => 20, 'min' => 2),
             array('telefono2', 'compararNumeros'),
             array('telefono1, telefono2', 'length', 'max' => 13),
-            array('cesarea_descrip', 'safe'),
+            array('cesarea_descrip,fue_bdd,fecha_ingreso_bdd,fecha_nacimiento_bdd,fue_alt,fecha_ingreso_alt,fecha_nacimiento_alt', 'safe'),
             // The following rule is used by search().
             // Please remove those attributes that should not be searched.
             array('id, nombre1, nombre2, apellido1, apellido2, direccion, telefono1, telefono2, correo, edo_civil, fecha_ingreso, fecha_nacimiento, ante_familiares, ante_personales, menarquia, tipo_regla, gesta, para, aborto, cesarea, cesarea_descrip, fue, pmf', 'safe', 'on' => 'search'),

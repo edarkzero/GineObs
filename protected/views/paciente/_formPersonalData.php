@@ -91,16 +91,19 @@
     $this->widget('zii.widgets.jui.CJuiDatePicker', array(
             'model' => $model,
             'attribute' => 'fecha_ingreso',
-            'language' => 'es',
+            'language' => Yii::app()->language,
             'options' => array(
                 'dateFormat' => DateTools::LONG_DATE_FORMAT_JS,
                 'constrainInput' => 'false',
                 'duration' => 'fast',
                 'showAnim' => 'slide',
+                'altField' => '#fecha_ingreso_alt',
+                'altFormat' => 'yy-mm-dd'
             ),
         )
     );
     ?>
+    <?php echo $form->hiddenField($model,'fecha_ingreso_alt',array('id' =>'fecha_ingreso_alt')); ?>
     <?php echo $form->error($model,'fecha_ingreso'); ?>
 </div>
 
@@ -110,16 +113,19 @@
     $this->widget('zii.widgets.jui.CJuiDatePicker', array(
             'model' => $model,
             'attribute' => 'fecha_nacimiento',
-            'language' => 'es',
+            'language' => Yii::app()->language,
             'options' => array(
                 'dateFormat' => DateTools::LONG_DATE_FORMAT_JS,
                 'constrainInput' => 'false',
                 'duration' => 'fast',
                 'showAnim' => 'slide',
+                'altField' => '#fecha_nacimiento_alt',
+                'altFormat' => 'yy-mm-dd'
             ),
         )
     );
     ?>
+    <?php echo $form->hiddenField($model,'fecha_nacimiento_alt',array('id' =>'fecha_nacimiento_alt')); ?>
     <?php echo $form->error($model,'fecha_nacimiento'); ?>
 </div>
 

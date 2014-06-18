@@ -15,7 +15,7 @@
                         'itemCssClass'       => 'item-test',
                         'encodeLabel'        => false,
                         'items'              => array(
-                            array('label' => 'Inicio', 'url' => array('site/index'), 'visible' => $this->id === 'site', 'linkOptions' => array("data-description" => "Pagina de inicio"),),
+                            array('label' => 'Inicio', 'url' => array('site/index'), 'linkOptions' => array("data-description" => "Pagina de inicio"),),
                             //array('label' => Yii::t('app', 'Dashboard'), 'visible' => $this->id === 'dashboard', 'url' => array('/dashboard/index'), 'linkOptions' => array("data-description" => Yii::t('app', "Operations grouper"))),
 
                             /*array('label'=>'Home <span class="caret"></span>', 'url'=>array('/site/index'),'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"our home page"),
@@ -28,24 +28,24 @@
                                                 array('label'=>'Home 6 - Without slider', 'url'=>array('/site/page', 'view'=>'home6')),
                                             )),*/
 
-                            array('label' => 'Administracion de sistema <span class="caret"></span>', 'url' => array('/Ginecologia', 'view' => 'columns'), 'visible' => $this->id === 'site', 'itemOptions' => array('class' => 'dropdown', 'tabindex' => "-1"), 'linkOptions' => array('class' => 'dropdown-toggle', 'data-toggle' => "dropdown", "data-description" => "Datos iniciales"),
+                            array('label' => 'Administracion de sistema <span class="caret"></span>', 'url' => array('/Ginecologia', 'view' => 'columns'), 'itemOptions' => array('class' => 'dropdown', 'tabindex' => "-1"), 'linkOptions' => array('class' => 'dropdown-toggle', 'data-toggle' => "dropdown", "data-description" => "Datos iniciales"),
                                   'items' => array(
                                       array('label' => 'Enfermedades', 'url' => array('/enfermedad/admin')),
                                       array('label' => 'Medicinas', 'url' => array('/medicina/admin')),
                                   )),
 
-                            array('label' => 'Pacientes', 'url' => array('/paciente/admin'), 'visible'=>$this->id === 'site', 'linkOptions' => array("data-description" => "Datos de pacientes"),),
+                            array('label' => 'Pacientes', 'url' => array('/paciente/admin'), 'linkOptions' => array("data-description" => "Datos de pacientes"),),
 
-                            array('label' => 'Historia <span class="caret"></span>', 'url' => array('/site/page', 'view' => 'columns'), 'visible'=>$this->id === 'site', 'itemOptions' => array('class' => 'dropdown', 'tabindex' => "-1"), 'linkOptions' => array('class' => 'dropdown-toggle', 'data-toggle' => "dropdown", "data-description" => "Historias medicas"),
+                            array('label' => 'Historia <span class="caret"></span>', 'url' => array('/site/page', 'view' => 'columns'), 'itemOptions' => array('class' => 'dropdown', 'tabindex' => "-1"), 'linkOptions' => array('class' => 'dropdown-toggle', 'data-toggle' => "dropdown", "data-description" => "Historias medicas"),
                                   'items' => array(
                                       array('label' => 'Historia de Ginecologia', 'url' => array('/historiaGinecologia/admin')),
                                       array('label' => 'Historia de Obstetricia', 'url' => array('/historiaObstetricia/admin')),
                                   )),
 
-                            array('label' => 'Recipes', 'url' => array('/recipe/admin'), 'visible'=>$this->id === 'site', 'linkOptions' => array("data-description" => "Datos de recipes"),),
-                            array('label' => 'Pagos', 'url' => array('/pago/admin'), 'visible'=>$this->id === 'site', 'linkOptions' => array("data-description" => "Datos de pagos"),),
-                            array('label' => 'Calendario', 'url' => array('/calendario/admin'), 'visible'=>$this->id === 'site', 'linkOptions' => array("data-description" => "Gestion de calendario"),),
-                            array('label' => 'Usuarios', 'url' => array('/usuario/admin'), 'visible'=>$this->id === 'site', 'linkOptions' => array("data-description" => "Datos de usuarios"),),
+                            array('label' => 'Recipes', 'url' => array('/recipe/admin'), 'linkOptions' => array("data-description" => "Datos de recipes"),),
+                            array('label' => 'Pagos', 'url' => array('/pago/admin'), 'linkOptions' => array("data-description" => "Datos de pagos"),),
+                            array('label' => 'Calendario', 'url' => array('/calendario/admin'), 'linkOptions' => array("data-description" => "Gestion de calendario"),),
+                            array('label' => 'Usuarios', 'url' => array('/usuario/admin'), 'linkOptions' => array("data-description" => "Datos de usuarios"),),
 
 //                        array('label'=>'Estilos <span class="caret"></span>', 'url'=>'#','itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"6 estilos para la pagina"), 
 //                            'items'=>array(

@@ -4,6 +4,11 @@
 /* @var $form CActiveForm */
 /* @var $dashboard bool */
 
+$cs = Yii::app()->getClientScript();
+$cs->registerCssFile(Yii::app()->baseUrl.'/js/clockface/css/clockface.css?v=1');
+$cs->registerScriptFile(Yii::app()->baseUrl.'/js/clockface/js/clockface.js?v=1',CClientScript::POS_END);
+$cs->registerScriptFile(Yii::app()->baseUrl.'/js/timepicker.js?v=1',CClientScript::POS_END);
+
 if(!isset($modelGineco) && isset($model))
     $modelGineco = $model;
 
@@ -14,6 +19,10 @@ if(isset($dashboard) && $dashboard)
 else
     $formAction = null;
 ?>
+
+<script>
+    var tp = '#fecha_time';
+</script>
 
 <div class="form">
 
@@ -47,22 +56,27 @@ else
 
 	<div class="row">
 		<?php echo $form->labelEx($modelGineco,'fecha'); ?>
-
-                <?php
-                    $this->widget('zii.widgets.jui.CJuiDatePicker', array(
-                        'model' => $modelGineco,
-                        'attribute' => 'fecha',
-                        'language' => 'es',
-                        'options' => array(
-                            'dateFormat' => 'yy-mm-dd',
-                            'constrainInput' => 'false',
-                            'duration' => 'fast',
-                            'showAnim' => 'slide',
-                        ),
-                            )
-                    );
-                ?>
+        <?php
+        $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+                'model' => $modelGineco,
+                'attribute' => 'fecha',
+                'language' => Yii::app()->language,
+                'options' => array(
+                    'dateFormat' => DateTools::LONG_DATE_FORMAT_JS,
+                    'constrainInput' => 'false',
+                    'duration' => 'fast',
+                    'showAnim' => 'slide',
+                    'altField' => '#fecha_alt',
+                    'altFormat' => 'yy-mm-dd'
+                ),
+            )
+        );
+        ?>
+        <?php echo $form->hiddenField($modelGineco,'fecha_alt',array('id' =>'fecha_alt')); ?>
 		<?php echo $form->error($modelGineco,'fecha'); ?>
+
+        <!--<input type="text" id="fecha_time" value="2:30 PM" readonly="" data-format="<?php /*echo DateTools::LONG_TIME_FORMAT_JS */?>" class="input-small">-->
+        <?php echo $form->textField($modelGineco,'fecha_time',array('readonly' => true,'id' => 'fecha_time','data-format' => DateTools::LONG_TIME_FORMAT_JS,'class' => 'input-small')) ?>
 	</div>
 
         <div class="row">

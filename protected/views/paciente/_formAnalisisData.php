@@ -91,16 +91,20 @@
     $this->widget('zii.widgets.jui.CJuiDatePicker', array(
             'model' => $model,
             'attribute' => 'fue',
-            'language' => 'es',
+            'language' => Yii::app()->language,
+            //'htmlOptions' => array('class' => 'dp-detailed'),
             'options' => array(
                 'dateFormat' => DateTools::LONG_DATE_FORMAT_JS,
                 'constrainInput' => 'false',
                 'duration' => 'fast',
                 'showAnim' => 'slide',
+                'altField' => '#fue_alt',
+                'altFormat' => 'yy-mm-dd'
             ),
         )
     );
     ?>
+    <?php echo $form->hiddenField($model,'fue_alt',array('id' =>'fue_alt')); ?>
     <?php echo $form->error($model, 'fue'); ?>
 </div>
 

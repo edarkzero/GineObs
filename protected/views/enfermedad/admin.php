@@ -51,7 +51,7 @@ $('.search-form form').submit(function(){
                             array(
                                 'model'=>$model, 
                                 'attribute'=>'fecha_creacion', 
-                                'language' => 'es',
+                                'language' => Yii::app()->language,
                                 'htmlOptions' => array('id' => 'fecha_creacion_search'), 
                                 'options' => array(
                                     'dateFormat' => 'yy-mm-dd',

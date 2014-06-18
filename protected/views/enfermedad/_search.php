@@ -32,7 +32,7 @@
                     $this->widget('zii.widgets.jui.CJuiDatePicker', array(
                         'model' => $model,
                         'attribute' => 'fecha_creacion',
-                        'language' => 'es',
+                        'language' => Yii::app()->language,
                         'options' => array(
                             'dateFormat' => 'yy-mm-dd',
                             'constrainInput' => 'false',

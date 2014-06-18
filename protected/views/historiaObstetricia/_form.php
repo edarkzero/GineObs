@@ -34,13 +34,15 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'fecha'); ?>
-		
+
+        <?php echo $form->textField($model,'fecha',array('id' => 'fecha-dtp')); ?>
+
 		<?php
-			$this->widget('zii.widgets.jui.CJuiDatePicker',
+/*			$this->widget('zii.widgets.jui.CJuiDatePicker',
 						array(
 						'model' => $model,
 						'attribute' => 'fecha',
-						'language' => 'es',
+						'language' => Yii::app()->language,
 						'options' => array(
 										'dateFormat' => 'dd-mm-yy',
 										'constrainInput' => 'false',
@@ -50,8 +52,9 @@
 							)
 					);
 					
-		?>
-		
+		*/?>
+
+        <?php echo $form->hiddenField($model,'fecha_alt',array('id' =>'fecha_alt')); ?>
 		<?php echo $form->error($model,'fecha'); ?>
 	</div>
 
